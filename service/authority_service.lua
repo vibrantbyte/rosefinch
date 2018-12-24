@@ -27,24 +27,19 @@ end
 ---@private ngx_cache
 ---@param token string
 ---@return string
-local function ngx_cache(token)
+local function get_ngx_cache(token)
     --[[
         将用户信息存在再user_cache域中；
         return string,table
     ]]
-
+    local cache = ngx.shared.ngx_cache;
     --如果key不存在初始化成table
-    if ngx.shared.ngx_cache.user_cache == nil then
-        ngx.shared.ngx_cache.user_cache = {};
+    if cache == nil then
+        cache = {};
     end
 
-    --user_cache 作为元表
-    local cache = {};
-    setmetatable(cache,{ __index = ngx.shared.ngx_cache.user_cache})
-
-    --只操作user，通过设置__index来查找元表,__newindex来写入元表
-    local user_info = cache[token];
-    if user_info == nil or user_info == "" then
+    local user_info,_ = cache:get(token);
+    if user_info == nil then
         return nil;
     end
     return user_info;
@@ -58,23 +53,15 @@ local function set_ngx_cache(token,json)
         将用户信息存在再user_cache域中；
         return string,table
     ]]
-    --如果key不存在初始化成table
-    if ngx.shared.ngx_cache.user_cache == nil then
-        ngx.shared.ngx_cache.user_cache = {};
-    end
-
-    --user_cache 作为元表
-    local cache = {};
-    setmetatable(cache,{ __newindex = ngx.shared.ngx_cache.user_cache})
-
-    --只操作user，通过设置__index来查找元表,__newindex来写入元表
-    cache[token] = json;
+    local cache = ngx.shared.ngx_cache;
+    --设置缓存
+    cache:set(token,json);
 end
 
 ---@private redis_cache
 ---@param token string
 ---@return string
-local function redis_cache(token)
+local function get_redis_cache(token)
     --redis key
     local key = redis_service.prefix_user_authority..token;
     local user_info = redis_service.get(key);
@@ -117,10 +104,10 @@ function authority_service.verify_user_authority(url,token)
     local user_table = {};
 
     --获取用户缓存对象（一级缓存）
-    local user = ngx_cache(token);
+    local user = get_ngx_cache(token);
     if user == nil then
         --读取redis用户缓存数据(二级缓存)
-        user = redis_cache(token);
+        user = get_redis_cache(token);
         if user == nil or user == ngx.null then
             --进行token解析
             local body = mas_service.verify(token);
@@ -134,7 +121,6 @@ function authority_service.verify_user_authority(url,token)
                 user_table["id"] = user_detail.user_id;
                 user_table["name"] = user_detail.name;
                 user_table["role"] = user_detail.role;
-                ngx.print(cjson.encode(user_table))
                 -- 获取用户角色或权限码
                 local roles = user_detail.roles;
                 local authority_array = {};
@@ -155,15 +141,20 @@ function authority_service.verify_user_authority(url,token)
             else
                 return response:generate(body);
             end
+        else
+            ngx.print("回写")
+            --回写到nginx cache中
+            --设置用户缓存(一级缓存)
+            set_ngx_cache(token,json);
         end
     end
 
     --当缓存存在的时候
-    if user ~= nil and user ~= "" then
+    if user ~= nil and user ~= ngx.null then
         if not pcall(function (_user)
             user_table = cjson.decode(_user);
         end,user) then
-            return response:generate_error(401,"cjson 转换成 json data失败！");
+            return response:generate_error(401,"cjson 转换成 json data失败！json: "..cjson.encode(user));
         end
     end
 

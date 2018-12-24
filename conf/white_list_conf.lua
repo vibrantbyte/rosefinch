@@ -22,18 +22,15 @@ white_list["/v0/auth/test1"] = nil;
 white_list["/v0/auth/test2"] = 1;
 white_list["/v0/auth/test3"] = {""};    --没有设置任何权限；
 
-
-
-
-
-
 --[[
     压测：
 ]]
 white_list["/v0/auth/http/bench"] = {"C1Manager"};    --项目压测url；
 
 
-
+-- 配置
+white_list["/v1/auth/users/11"] = {"SALESManager","BSALES","FIELDSALE","CHANNELFIELDSALE","C1Manager"};
+white_list["/test/http/bench"] = {"SALESManager","BSALES","FIELDSALE","CHANNELFIELDSALE","C1Manager"};
 
 --[[
 -----------------------------------| 上面为白名单配置区 |-----------------------------------------

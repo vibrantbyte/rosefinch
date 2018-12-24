@@ -19,7 +19,7 @@ function redis_conf.get_conf()
                 host = '100.99.84.137',
                 port = 6379,
                 pass = "xavYovNLzoxGy3zC",
-                timeout = 200, -- watch out this value
+                timeout = 3000, -- millisecond watch out this value
                 database = 0,
             }
         }
