@@ -16,9 +16,9 @@ function redis_conf.get_conf()
     if conf.profile == "testing" then
         local config = {
             default = { -- your connection name
-                host = '100.99.84.137',
+                host = '',
                 port = 6379,
-                pass = "xavYovNLzoxGy3zC",
+                pass = "",
                 timeout = 3000, -- millisecond watch out this value
                 database = 0,
             }

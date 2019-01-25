@@ -8,7 +8,7 @@ local conf = require("conf.conf");
 mas_conf = {_VERSION="0.1.0"};
 
 if conf.profile == "testing" then
-    mas_conf.server = "http://101.200.184.102:7777";
+    mas_conf.server = "";
     mas_conf.path = "/token/verify";
 end
 
