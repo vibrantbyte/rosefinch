@@ -1,0 +1,648 @@
+2019/01/04 19:06:56 [alert] 61779#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/04 19:06:56 [emerg] 61779#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/01/04 19:06:56 [emerg] 61779#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/01/04 19:06:56 [emerg] 61779#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/01/04 19:06:56 [emerg] 61779#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/01/04 19:06:56 [emerg] 61779#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/01/04 19:06:56 [emerg] 61779#0: still could not bind()
+2019/01/04 19:07:03 [notice] 61812#0: signal process started
+2019/01/04 19:07:06 [notice] 61845#0: signal process started
+2019/01/04 19:07:06 [error] 61845#0: open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../logs/nginx.pid" failed (2: No such file or directory)
+2019/01/04 19:08:03 [alert] 61963#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/04 19:08:30 [error] 61965#0: *1 "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2019/01/04 19:08:36 [error] 61965#0: *1 lua entry thread aborted: runtime error: ...api/src/bin/../../src/location/jwt_generate_location.lua:6: attempt to call global '_DEBUG' (a nil value)
+stack traceback:
+coroutine 0:
+	...api/src/bin/../../src/location/jwt_generate_location.lua: in function <...api/src/bin/../../src/location/jwt_generate_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/jwt HTTP/1.1", host: "localhost"
+2019/01/04 19:08:36 [error] 61965#0: *1 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/jwt HTTP/1.1", host: "localhost"
+2019/01/04 19:08:38 [error] 61965#0: *2 lua entry thread aborted: runtime error: ...api/src/bin/../../src/location/jwt_generate_location.lua:6: attempt to call global '_DEBUG' (a nil value)
+stack traceback:
+coroutine 0:
+	...api/src/bin/../../src/location/jwt_generate_location.lua: in function <...api/src/bin/../../src/location/jwt_generate_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/jwt HTTP/1.1", host: "localhost"
+2019/01/04 19:08:38 [error] 61965#0: *2 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/jwt HTTP/1.1", host: "localhost"
+2019/01/04 19:08:38 [error] 61965#0: *3 lua entry thread aborted: runtime error: ...api/src/bin/../../src/location/jwt_generate_location.lua:6: attempt to call global '_DEBUG' (a nil value)
+stack traceback:
+coroutine 0:
+	...api/src/bin/../../src/location/jwt_generate_location.lua: in function <...api/src/bin/../../src/location/jwt_generate_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/jwt HTTP/1.1", host: "localhost"
+2019/01/04 19:08:38 [error] 61965#0: *3 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/jwt HTTP/1.1", host: "localhost"
+2019/01/04 19:08:38 [error] 61965#0: *4 lua entry thread aborted: runtime error: ...api/src/bin/../../src/location/jwt_generate_location.lua:6: attempt to call global '_DEBUG' (a nil value)
+stack traceback:
+coroutine 0:
+	...api/src/bin/../../src/location/jwt_generate_location.lua: in function <...api/src/bin/../../src/location/jwt_generate_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/jwt HTTP/1.1", host: "localhost"
+2019/01/04 19:08:38 [error] 61965#0: *4 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/jwt HTTP/1.1", host: "localhost"
+2019/01/04 19:08:38 [error] 61965#0: *5 lua entry thread aborted: runtime error: ...api/src/bin/../../src/location/jwt_generate_location.lua:6: attempt to call global '_DEBUG' (a nil value)
+stack traceback:
+coroutine 0:
+	...api/src/bin/../../src/location/jwt_generate_location.lua: in function <...api/src/bin/../../src/location/jwt_generate_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/jwt HTTP/1.1", host: "localhost"
+2019/01/04 19:08:38 [error] 61965#0: *5 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/jwt HTTP/1.1", host: "localhost"
+2019/01/04 19:08:38 [error] 61965#0: *6 lua entry thread aborted: runtime error: ...api/src/bin/../../src/location/jwt_generate_location.lua:6: attempt to call global '_DEBUG' (a nil value)
+stack traceback:
+coroutine 0:
+	...api/src/bin/../../src/location/jwt_generate_location.lua: in function <...api/src/bin/../../src/location/jwt_generate_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/jwt HTTP/1.1", host: "localhost"
+2019/01/04 19:08:38 [error] 61965#0: *6 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/jwt HTTP/1.1", host: "localhost"
+2019/01/04 19:08:39 [error] 61965#0: *7 lua entry thread aborted: runtime error: ...api/src/bin/../../src/location/jwt_generate_location.lua:6: attempt to call global '_DEBUG' (a nil value)
+stack traceback:
+coroutine 0:
+	...api/src/bin/../../src/location/jwt_generate_location.lua: in function <...api/src/bin/../../src/location/jwt_generate_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/jwt HTTP/1.1", host: "localhost"
+2019/01/04 19:08:39 [error] 61965#0: *7 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/jwt HTTP/1.1", host: "localhost"
+2019/01/04 19:08:39 [error] 61965#0: *8 lua entry thread aborted: runtime error: ...api/src/bin/../../src/location/jwt_generate_location.lua:6: attempt to call global '_DEBUG' (a nil value)
+stack traceback:
+coroutine 0:
+	...api/src/bin/../../src/location/jwt_generate_location.lua: in function <...api/src/bin/../../src/location/jwt_generate_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/jwt HTTP/1.1", host: "localhost"
+2019/01/04 19:08:39 [error] 61965#0: *8 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/jwt HTTP/1.1", host: "localhost"
+2019/01/04 19:08:39 [error] 61965#0: *9 lua entry thread aborted: runtime error: ...api/src/bin/../../src/location/jwt_generate_location.lua:6: attempt to call global '_DEBUG' (a nil value)
+stack traceback:
+coroutine 0:
+	...api/src/bin/../../src/location/jwt_generate_location.lua: in function <...api/src/bin/../../src/location/jwt_generate_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/jwt HTTP/1.1", host: "localhost"
+2019/01/04 19:08:39 [error] 61965#0: *9 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/jwt HTTP/1.1", host: "localhost"
+2019/01/04 19:08:39 [error] 61965#0: *10 lua entry thread aborted: runtime error: ...api/src/bin/../../src/location/jwt_generate_location.lua:6: attempt to call global '_DEBUG' (a nil value)
+stack traceback:
+coroutine 0:
+	...api/src/bin/../../src/location/jwt_generate_location.lua: in function <...api/src/bin/../../src/location/jwt_generate_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/jwt HTTP/1.1", host: "localhost"
+2019/01/04 19:08:39 [error] 61965#0: *10 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/jwt HTTP/1.1", host: "localhost"
+2019/01/04 19:10:11 [notice] 62125#0: signal process started
+2019/01/04 19:10:11 [alert] 61964#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/04 19:10:15 [notice] 62159#0: signal process started
+2019/01/04 19:10:15 [alert] 61964#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/04 19:10:16 [notice] 62193#0: signal process started
+2019/01/04 19:10:16 [alert] 61964#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/04 19:10:17 [notice] 62231#0: signal process started
+2019/01/04 19:10:17 [alert] 61964#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/04 19:11:30 [notice] 62283#0: signal process started
+2019/01/04 19:11:44 [alert] 62323#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/04 19:11:59 [notice] 62365#0: signal process started
+2019/01/04 19:12:08 [alert] 62402#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/04 19:14:10 [notice] 62461#0: signal process started
+2019/01/04 19:14:24 [alert] 62494#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/01/04 19:16:04 [error] 62496#0: *2 lua entry thread aborted: runtime error: ./src/service/mas_service.lua:8: module 'src.conf.conf' not found:
+	no field package.preload['src.conf.conf']
+	no file '/usr/local/openresty/lualib/src/conf/conf.lua'
+	no file '/usr/local/openresty/site/lualib/src/conf/conf.ljbc'
+	no file '/usr/local/openresty/site/lualib/src/conf/conf/init.ljbc'
+	no file '/usr/local/openresty/lualib/src/conf/conf.ljbc'
+	no file '/usr/local/openresty/lualib/src/conf/conf/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/src/conf/conf.lua'
+	no file '/usr/local/openresty/site/lualib/src/conf/conf/init.lua'
+	no file '/usr/local/openresty/lualib/src/conf/conf.lua'
+	no file '/usr/local/openresty/lualib/src/conf/conf/init.lua'
+	no file './src/conf/conf.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/src/conf/conf.lua'
+	no file '/usr/local/share/lua/5.1/src/conf/conf.lua'
+	no file '/usr/local/share/lua/5.1/src/conf/conf/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/src/conf/conf.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/src/conf/conf/init.lua'
+	no file '/usr/local/openresty/lualib/src/conf/conf.so'
+	no file '/usr/local/openresty/site/lualib/src/conf/conf.so'
+	no file '/usr/local/openresty/lualib/src/conf/conf.so'
+	no file './src/conf/conf.so'
+	no file '/usr/local/lib/lua/5.1/src/conf/conf.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/src/conf/conf.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/lualib/src.so'
+	no file '/usr/local/openresty/site/lualib/src.so'
+	no file '/usr/local/openresty/lualib/src.so'
+	no file './src.so'
+	no file '/usr/local/lib/lua/5.1/src.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/src.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	...-api/src/bin/../../src/location/access_auth_location.lua:10: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/http/bench HTTP/1.1", host: "localhost"
+2019/01/04 19:16:04 [error] 62496#0: *2 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/http/bench HTTP/1.1", host: "localhost"
+2019/01/04 19:16:27 [error] 62496#0: *7 lua entry thread aborted: runtime error: ...-api/src/bin/../../src/location/access_auth_location.lua:36: attempt to index local 'authority_service' (a userdata value)
+stack traceback:
+coroutine 0:
+	...-api/src/bin/../../src/location/access_auth_location.lua: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=1 HTTP/1.1", host: "localhost"
+2019/01/04 19:16:27 [error] 62496#0: *7 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=1 HTTP/1.1", host: "localhost"
+2019/01/04 19:16:29 [error] 62496#0: *9 lua entry thread aborted: runtime error: ...-api/src/bin/../../src/location/access_auth_location.lua:36: attempt to index local 'authority_service' (a userdata value)
+stack traceback:
+coroutine 0:
+	...-api/src/bin/../../src/location/access_auth_location.lua: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=1 HTTP/1.1", host: "localhost"
+2019/01/04 19:16:29 [error] 62496#0: *9 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=1 HTTP/1.1", host: "localhost"
+2019/01/04 19:16:32 [error] 62496#0: *10 lua entry thread aborted: runtime error: ...-api/src/bin/../../src/location/access_auth_location.lua:36: attempt to index local 'authority_service' (a userdata value)
+stack traceback:
+coroutine 0:
+	...-api/src/bin/../../src/location/access_auth_location.lua: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=1 HTTP/1.1", host: "localhost"
+2019/01/04 19:16:32 [error] 62496#0: *10 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=1 HTTP/1.1", host: "localhost"
+2019/01/04 19:17:59 [error] 62496#0: *12 lua entry thread aborted: runtime error: ...-api/src/bin/../../src/location/access_auth_location.lua:36: attempt to index local 'authority_service' (a userdata value)
+stack traceback:
+coroutine 0:
+	...-api/src/bin/../../src/location/access_auth_location.lua: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=1 HTTP/1.1", host: "localhost"
+2019/01/04 19:17:59 [error] 62496#0: *12 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=1 HTTP/1.1", host: "localhost"
+2019/01/04 19:18:16 [error] 62496#0: *13 lua entry thread aborted: runtime error: ...-api/src/bin/../../src/location/access_auth_location.lua:36: attempt to index local 'authority_service' (a userdata value)
+stack traceback:
+coroutine 0:
+	...-api/src/bin/../../src/location/access_auth_location.lua: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=1 HTTP/1.1", host: "localhost"
+2019/01/04 19:18:16 [error] 62496#0: *13 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=1 HTTP/1.1", host: "localhost"
+2019/01/04 19:18:30 [error] 62496#0: *16 lua entry thread aborted: runtime error: ...-api/src/bin/../../src/location/access_auth_location.lua:36: attempt to index local 'authority_service' (a userdata value)
+stack traceback:
+coroutine 0:
+	...-api/src/bin/../../src/location/access_auth_location.lua: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:18:30 [error] 62496#0: *16 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:18:32 [error] 62496#0: *17 lua entry thread aborted: runtime error: ...-api/src/bin/../../src/location/access_auth_location.lua:36: attempt to index local 'authority_service' (a userdata value)
+stack traceback:
+coroutine 0:
+	...-api/src/bin/../../src/location/access_auth_location.lua: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:18:32 [error] 62496#0: *17 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:18:32 [error] 62496#0: *18 lua entry thread aborted: runtime error: ...-api/src/bin/../../src/location/access_auth_location.lua:36: attempt to index local 'authority_service' (a userdata value)
+stack traceback:
+coroutine 0:
+	...-api/src/bin/../../src/location/access_auth_location.lua: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:18:32 [error] 62496#0: *18 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:18:32 [error] 62496#0: *19 lua entry thread aborted: runtime error: ...-api/src/bin/../../src/location/access_auth_location.lua:36: attempt to index local 'authority_service' (a userdata value)
+stack traceback:
+coroutine 0:
+	...-api/src/bin/../../src/location/access_auth_location.lua: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:18:32 [error] 62496#0: *19 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:19:16 [error] 62496#0: *21 lua entry thread aborted: runtime error: ...-api/src/bin/../../src/location/access_auth_location.lua:36: attempt to index local 'authority_service' (a userdata value)
+stack traceback:
+coroutine 0:
+	...-api/src/bin/../../src/location/access_auth_location.lua: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:19:16 [error] 62496#0: *21 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:19:17 [error] 62496#0: *22 lua entry thread aborted: runtime error: ...-api/src/bin/../../src/location/access_auth_location.lua:36: attempt to index local 'authority_service' (a userdata value)
+stack traceback:
+coroutine 0:
+	...-api/src/bin/../../src/location/access_auth_location.lua: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:19:17 [error] 62496#0: *22 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:19:18 [error] 62496#0: *23 lua entry thread aborted: runtime error: ...-api/src/bin/../../src/location/access_auth_location.lua:36: attempt to index local 'authority_service' (a userdata value)
+stack traceback:
+coroutine 0:
+	...-api/src/bin/../../src/location/access_auth_location.lua: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:19:18 [error] 62496#0: *23 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:19:18 [error] 62496#0: *24 lua entry thread aborted: runtime error: ...-api/src/bin/../../src/location/access_auth_location.lua:36: attempt to index local 'authority_service' (a userdata value)
+stack traceback:
+coroutine 0:
+	...-api/src/bin/../../src/location/access_auth_location.lua: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:19:18 [error] 62496#0: *24 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:19:25 [error] 62496#0: *25 lua entry thread aborted: runtime error: ...-api/src/bin/../../src/location/access_auth_location.lua:36: attempt to index local 'authority_service' (a userdata value)
+stack traceback:
+coroutine 0:
+	...-api/src/bin/../../src/location/access_auth_location.lua: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:19:25 [error] 62496#0: *25 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:19:36 [notice] 62585#0: signal process started
+2019/01/04 19:19:36 [alert] 62495#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/01/04 19:19:38 [notice] 62619#0: signal process started
+2019/01/04 19:19:38 [alert] 62495#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/01/04 19:19:38 [notice] 62653#0: signal process started
+2019/01/04 19:19:38 [alert] 62495#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/01/04 19:19:39 [notice] 62688#0: signal process started
+2019/01/04 19:19:39 [alert] 62495#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/01/04 19:19:40 [notice] 62722#0: signal process started
+2019/01/04 19:19:40 [alert] 62495#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/01/04 19:19:40 [notice] 62756#0: signal process started
+2019/01/04 19:19:40 [alert] 62495#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/01/04 19:19:48 [error] 62758#0: *33 lua entry thread aborted: runtime error: ./src/service/mas_service.lua:8: module 'src.conf.conf' not found:
+	no field package.preload['src.conf.conf']
+	no file '/usr/local/openresty/lualib/src/conf/conf.lua'
+	no file '/usr/local/openresty/site/lualib/src/conf/conf.ljbc'
+	no file '/usr/local/openresty/site/lualib/src/conf/conf/init.ljbc'
+	no file '/usr/local/openresty/lualib/src/conf/conf.ljbc'
+	no file '/usr/local/openresty/lualib/src/conf/conf/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/src/conf/conf.lua'
+	no file '/usr/local/openresty/site/lualib/src/conf/conf/init.lua'
+	no file '/usr/local/openresty/lualib/src/conf/conf.lua'
+	no file '/usr/local/openresty/lualib/src/conf/conf/init.lua'
+	no file './src/conf/conf.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/src/conf/conf.lua'
+	no file '/usr/local/share/lua/5.1/src/conf/conf.lua'
+	no file '/usr/local/share/lua/5.1/src/conf/conf/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/src/conf/conf.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/src/conf/conf/init.lua'
+	no file '/usr/local/openresty/lualib/src/conf/conf.so'
+	no file '/usr/local/openresty/site/lualib/src/conf/conf.so'
+	no file '/usr/local/openresty/lualib/src/conf/conf.so'
+	no file './src/conf/conf.so'
+	no file '/usr/local/lib/lua/5.1/src/conf/conf.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/src/conf/conf.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/lualib/src.so'
+	no file '/usr/local/openresty/site/lualib/src.so'
+	no file '/usr/local/openresty/lualib/src.so'
+	no file './src.so'
+	no file '/usr/local/lib/lua/5.1/src.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/src.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	...-api/src/bin/../../src/location/access_auth_location.lua:10: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:19:48 [error] 62758#0: *33 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:20:15 [error] 62758#0: *35 lua entry thread aborted: runtime error: ...-api/src/bin/../../src/location/access_auth_location.lua:9: Debugger connection closed
+stack traceback:
+coroutine 0:
+	...-api/src/bin/../../src/location/access_auth_location.lua: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:20:15 [error] 62758#0: *35 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:20:28 [notice] 62795#0: signal process started
+2019/01/04 19:20:28 [alert] 62495#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/01/04 19:20:35 [error] 62797#0: *38 lua entry thread aborted: runtime error: ./src/service/mas_service.lua:8: module 'src.conf.conf' not found:
+	no field package.preload['src.conf.conf']
+	no file '/usr/local/openresty/lualib/src/conf/conf.lua'
+	no file '/usr/local/openresty/site/lualib/src/conf/conf.ljbc'
+	no file '/usr/local/openresty/site/lualib/src/conf/conf/init.ljbc'
+	no file '/usr/local/openresty/lualib/src/conf/conf.ljbc'
+	no file '/usr/local/openresty/lualib/src/conf/conf/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/src/conf/conf.lua'
+	no file '/usr/local/openresty/site/lualib/src/conf/conf/init.lua'
+	no file '/usr/local/openresty/lualib/src/conf/conf.lua'
+	no file '/usr/local/openresty/lualib/src/conf/conf/init.lua'
+	no file './src/conf/conf.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/src/conf/conf.lua'
+	no file '/usr/local/share/lua/5.1/src/conf/conf.lua'
+	no file '/usr/local/share/lua/5.1/src/conf/conf/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/src/conf/conf.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/src/conf/conf/init.lua'
+	no file '/usr/local/openresty/lualib/src/conf/conf.so'
+	no file '/usr/local/openresty/site/lualib/src/conf/conf.so'
+	no file '/usr/local/openresty/lualib/src/conf/conf.so'
+	no file './src/conf/conf.so'
+	no file '/usr/local/lib/lua/5.1/src/conf/conf.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/src/conf/conf.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/lualib/src.so'
+	no file '/usr/local/openresty/site/lualib/src.so'
+	no file '/usr/local/openresty/lualib/src.so'
+	no file './src.so'
+	no file '/usr/local/lib/lua/5.1/src.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/src.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	...-api/src/bin/../../src/location/access_auth_location.lua:10: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:20:35 [error] 62797#0: *38 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:21:38 [notice] 62840#0: signal process started
+2019/01/04 19:21:38 [alert] 62495#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/01/04 19:21:40 [error] 62842#0: *41 lua entry thread aborted: runtime error: ./src/service/redis_service.lua:36: module 'helper.redis_factory' not found:
+	no field package.preload['helper.redis_factory']
+	no file '/usr/local/openresty/lualib/helper/redis_factory.lua'
+	no file '/usr/local/openresty/site/lualib/helper/redis_factory.ljbc'
+	no file '/usr/local/openresty/site/lualib/helper/redis_factory/init.ljbc'
+	no file '/usr/local/openresty/lualib/helper/redis_factory.ljbc'
+	no file '/usr/local/openresty/lualib/helper/redis_factory/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/helper/redis_factory.lua'
+	no file '/usr/local/openresty/site/lualib/helper/redis_factory/init.lua'
+	no file '/usr/local/openresty/lualib/helper/redis_factory.lua'
+	no file '/usr/local/openresty/lualib/helper/redis_factory/init.lua'
+	no file './helper/redis_factory.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/helper/redis_factory.lua'
+	no file '/usr/local/share/lua/5.1/helper/redis_factory.lua'
+	no file '/usr/local/share/lua/5.1/helper/redis_factory/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/helper/redis_factory.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/helper/redis_factory/init.lua'
+	no file '/usr/local/openresty/lualib/helper/redis_factory.so'
+	no file '/usr/local/openresty/site/lualib/helper/redis_factory.so'
+	no file '/usr/local/openresty/lualib/helper/redis_factory.so'
+	no file './helper/redis_factory.so'
+	no file '/usr/local/lib/lua/5.1/helper/redis_factory.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/helper/redis_factory.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/lualib/helper.so'
+	no file '/usr/local/openresty/site/lualib/helper.so'
+	no file '/usr/local/openresty/lualib/helper.so'
+	no file './helper.so'
+	no file '/usr/local/lib/lua/5.1/helper.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/helper.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./src/service/redis_service.lua:36: in function 'get'
+	./src/service/authority_service.lua:66: in function 'get_redis_cache'
+	./src/service/authority_service.lua:109: in function 'verify_user_authority'
+	...-api/src/bin/../../src/location/access_auth_location.lua:36: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:21:40 [error] 62842#0: *41 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:22:17 [notice] 62876#0: signal process started
+2019/01/04 19:22:17 [alert] 62495#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/01/04 19:22:19 [error] 62878#0: *44 lua entry thread aborted: runtime error: ./src/service/redis_service.lua:36: module 'helper.redis_factory' not found:
+	no field package.preload['helper.redis_factory']
+	no file '/usr/local/openresty/lualib/helper/redis_factory.lua'
+	no file '/usr/local/openresty/site/lualib/helper/redis_factory.ljbc'
+	no file '/usr/local/openresty/site/lualib/helper/redis_factory/init.ljbc'
+	no file '/usr/local/openresty/lualib/helper/redis_factory.ljbc'
+	no file '/usr/local/openresty/lualib/helper/redis_factory/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/helper/redis_factory.lua'
+	no file '/usr/local/openresty/site/lualib/helper/redis_factory/init.lua'
+	no file '/usr/local/openresty/lualib/helper/redis_factory.lua'
+	no file '/usr/local/openresty/lualib/helper/redis_factory/init.lua'
+	no file './helper/redis_factory.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/helper/redis_factory.lua'
+	no file '/usr/local/share/lua/5.1/helper/redis_factory.lua'
+	no file '/usr/local/share/lua/5.1/helper/redis_factory/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/helper/redis_factory.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/helper/redis_factory/init.lua'
+	no file '/usr/local/openresty/lualib/helper/redis_factory.so'
+	no file '/usr/local/openresty/site/lualib/helper/redis_factory.so'
+	no file '/usr/local/openresty/lualib/helper/redis_factory.so'
+	no file './helper/redis_factory.so'
+	no file '/usr/local/lib/lua/5.1/helper/redis_factory.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/helper/redis_factory.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/lualib/helper.so'
+	no file '/usr/local/openresty/site/lualib/helper.so'
+	no file '/usr/local/openresty/lualib/helper.so'
+	no file './helper.so'
+	no file '/usr/local/lib/lua/5.1/helper.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/helper.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./src/service/redis_service.lua:36: in function 'get'
+	./src/service/authority_service.lua:66: in function 'get_redis_cache'
+	./src/service/authority_service.lua:109: in function 'verify_user_authority'
+	...-api/src/bin/../../src/location/access_auth_location.lua:36: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:22:19 [error] 62878#0: *44 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:23:14 [notice] 62912#0: signal process started
+2019/01/04 19:23:14 [alert] 62495#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/01/04 19:23:17 [error] 62914#0: *47 lua entry thread aborted: runtime error: ./src/service/redis_service.lua:36: module 'helper.redis_factory' not found:
+	no field package.preload['helper.redis_factory']
+	no file '/usr/local/openresty/lualib/helper/redis_factory.lua'
+	no file '/usr/local/openresty/site/lualib/helper/redis_factory.ljbc'
+	no file '/usr/local/openresty/site/lualib/helper/redis_factory/init.ljbc'
+	no file '/usr/local/openresty/lualib/helper/redis_factory.ljbc'
+	no file '/usr/local/openresty/lualib/helper/redis_factory/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/helper/redis_factory.lua'
+	no file '/usr/local/openresty/site/lualib/helper/redis_factory/init.lua'
+	no file '/usr/local/openresty/lualib/helper/redis_factory.lua'
+	no file '/usr/local/openresty/lualib/helper/redis_factory/init.lua'
+	no file './helper/redis_factory.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/helper/redis_factory.lua'
+	no file '/usr/local/share/lua/5.1/helper/redis_factory.lua'
+	no file '/usr/local/share/lua/5.1/helper/redis_factory/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/helper/redis_factory.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/helper/redis_factory/init.lua'
+	no file '/usr/local/openresty/lualib/helper/redis_factory.so'
+	no file '/usr/local/openresty/site/lualib/helper/redis_factory.so'
+	no file '/usr/local/openresty/lualib/helper/redis_factory.so'
+	no file './helper/redis_factory.so'
+	no file '/usr/local/lib/lua/5.1/helper/redis_factory.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/helper/redis_factory.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/lualib/helper.so'
+	no file '/usr/local/openresty/site/lualib/helper.so'
+	no file '/usr/local/openresty/lualib/helper.so'
+	no file './helper.so'
+	no file '/usr/local/lib/lua/5.1/helper.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/helper.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./src/service/redis_service.lua:36: in function 'get'
+	./src/service/authority_service.lua:66: in function 'get_redis_cache'
+	./src/service/authority_service.lua:109: in function 'verify_user_authority'
+	...-api/src/bin/../../src/location/access_auth_location.lua:36: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:23:17 [error] 62914#0: *47 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:24:04 [error] 62914#0: *49 lua entry thread aborted: runtime error: ...-api/src/bin/../../src/location/access_auth_location.lua:36: Debugger connection closed
+stack traceback:
+coroutine 0:
+	...-api/src/bin/../../src/location/access_auth_location.lua: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:24:04 [error] 62914#0: *49 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:24:13 [notice] 62951#0: signal process started
+2019/01/04 19:24:13 [alert] 62495#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/01/04 19:24:19 [error] 62953#0: *52 lua entry thread aborted: runtime error: ./src/service/redis_service.lua:36: module 'helper.redis_factory' not found:
+	no field package.preload['helper.redis_factory']
+	no file '/usr/local/openresty/lualib/helper/redis_factory.lua'
+	no file '/usr/local/openresty/site/lualib/helper/redis_factory.ljbc'
+	no file '/usr/local/openresty/site/lualib/helper/redis_factory/init.ljbc'
+	no file '/usr/local/openresty/lualib/helper/redis_factory.ljbc'
+	no file '/usr/local/openresty/lualib/helper/redis_factory/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/helper/redis_factory.lua'
+	no file '/usr/local/openresty/site/lualib/helper/redis_factory/init.lua'
+	no file '/usr/local/openresty/lualib/helper/redis_factory.lua'
+	no file '/usr/local/openresty/lualib/helper/redis_factory/init.lua'
+	no file './helper/redis_factory.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/helper/redis_factory.lua'
+	no file '/usr/local/share/lua/5.1/helper/redis_factory.lua'
+	no file '/usr/local/share/lua/5.1/helper/redis_factory/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/helper/redis_factory.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/helper/redis_factory/init.lua'
+	no file '/usr/local/openresty/lualib/helper/redis_factory.so'
+	no file '/usr/local/openresty/site/lualib/helper/redis_factory.so'
+	no file '/usr/local/openresty/lualib/helper/redis_factory.so'
+	no file './helper/redis_factory.so'
+	no file '/usr/local/lib/lua/5.1/helper/redis_factory.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/helper/redis_factory.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/lualib/helper.so'
+	no file '/usr/local/openresty/site/lualib/helper.so'
+	no file '/usr/local/openresty/lualib/helper.so'
+	no file './helper.so'
+	no file '/usr/local/lib/lua/5.1/helper.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/helper.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./src/service/redis_service.lua:36: in function 'get'
+	./src/service/authority_service.lua:66: in function 'get_redis_cache'
+	./src/service/authority_service.lua:109: in function 'verify_user_authority'
+	...-api/src/bin/../../src/location/access_auth_location.lua:36: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:24:19 [error] 62953#0: *52 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /test/http/bench?app_token=RuPQMEW3woiiCqnIoRPI582b2WOC9AxK3eZXh7h04-4 HTTP/1.1", host: "localhost"
+2019/01/04 19:26:28 [notice] 63003#0: signal process started
+2019/01/04 19:26:28 [alert] 62495#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/01/04 19:27:50 [notice] 63042#0: signal process started
+2019/01/04 19:27:50 [alert] 62495#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/01/04 19:27:52 [notice] 63076#0: signal process started
+2019/01/04 19:27:52 [alert] 62495#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/01/04 19:27:52 [notice] 63110#0: signal process started
+2019/01/04 19:27:52 [alert] 62495#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/01/04 19:28:14 [notice] 63147#0: signal process started
+2019/01/04 19:28:14 [alert] 62495#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/01/04 19:28:17 [notice] 63181#0: signal process started
+2019/01/04 19:28:17 [alert] 62495#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/01/04 19:28:22 [notice] 63215#0: signal process started
+2019/01/04 19:28:22 [alert] 62495#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/01/04 19:28:40 [notice] 63249#0: signal process started
+2019/01/04 19:28:40 [alert] 63112#0: *67 open socket #8 left in connection 4
+2019/01/04 19:28:40 [alert] 63112#0: aborting
+2019/01/04 19:28:53 [alert] 63282#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/05 23:56:56 [alert] 4801#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/05 23:56:58 [alert] 4836#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/05 23:56:58 [emerg] 4836#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/01/05 23:56:58 [emerg] 4836#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/01/05 23:56:58 [emerg] 4836#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/01/05 23:56:58 [emerg] 4836#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/01/05 23:56:58 [emerg] 4836#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/01/05 23:56:58 [emerg] 4836#0: still could not bind()
+2019/01/05 23:57:04 [notice] 4869#0: signal process started
+2019/01/05 23:57:04 [alert] 4802#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/05 23:57:07 [notice] 4903#0: signal process started
+2019/01/05 23:57:07 [alert] 4802#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/05 23:57:07 [notice] 4937#0: signal process started
+2019/01/05 23:57:07 [alert] 4802#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/05 23:57:08 [notice] 4971#0: signal process started
+2019/01/05 23:57:08 [alert] 4802#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/05 23:57:09 [notice] 5005#0: signal process started
+2019/01/05 23:57:09 [alert] 4802#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/05 23:57:09 [notice] 5039#0: signal process started
+2019/01/05 23:57:09 [alert] 4802#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/05 23:58:05 [notice] 5082#0: signal process started
+2019/01/05 23:58:05 [alert] 4802#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/05 23:58:07 [notice] 5116#0: signal process started
+2019/01/05 23:58:07 [alert] 4802#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/05 23:58:25 [notice] 5153#0: signal process started
+2019/01/05 23:58:25 [alert] 4802#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/05 23:58:29 [notice] 5187#0: signal process started
+2019/01/05 23:58:42 [alert] 5224#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/05 23:59:11 [error] 5226#0: *2 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/test/jwt"
+2019/01/06 00:01:34 [emerg] 5284#0: invalid URL prefix in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:173
+2019/01/06 00:01:40 [error] 5226#0: *4 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/java" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /java HTTP/1.1", host: "localhost"
+2019/01/06 00:01:46 [error] 5226#0: *4 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/java/get/name" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /java/get/name HTTP/1.1", host: "localhost"
+2019/01/06 00:01:47 [error] 5226#0: *4 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/java/get/name" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /java/get/name HTTP/1.1", host: "localhost"
+2019/01/06 00:01:48 [error] 5226#0: *4 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/java/get/name" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /java/get/name HTTP/1.1", host: "localhost"
+2019/01/06 00:01:48 [error] 5226#0: *4 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/java/get/name" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /java/get/name HTTP/1.1", host: "localhost"
+2019/01/06 00:01:48 [error] 5226#0: *4 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/java/get/name" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /java/get/name HTTP/1.1", host: "localhost"
+2019/01/06 00:01:48 [error] 5226#0: *4 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/java/get/name" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /java/get/name HTTP/1.1", host: "localhost"
+2019/01/06 00:01:50 [error] 5226#0: *4 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/java/get/name" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /java/get/name HTTP/1.1", host: "localhost"
+2019/01/06 00:01:50 [error] 5226#0: *4 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/java/get/name" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /java/get/name HTTP/1.1", host: "localhost"
+2019/01/06 00:01:50 [error] 5226#0: *4 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/java/get/name" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /java/get/name HTTP/1.1", host: "localhost"
+2019/01/06 00:01:50 [error] 5226#0: *4 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/java/get/name" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /java/get/name HTTP/1.1", host: "localhost"
+2019/01/06 00:03:30 [notice] 5326#0: signal process started
+2019/01/06 00:03:30 [alert] 5225#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/06 00:03:31 [notice] 5360#0: signal process started
+2019/01/06 00:03:31 [alert] 5225#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/06 00:03:46 [notice] 5397#0: signal process started
+2019/01/06 00:03:46 [alert] 5225#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/06 00:03:51 [error] 5399#0: *12 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/get/name" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /get/name HTTP/1.1", host: "localhost"
+2019/01/06 00:03:54 [error] 5399#0: *12 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/get/name" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /get/name HTTP/1.1", host: "localhost"
+2019/01/06 00:03:54 [error] 5399#0: *12 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/get/name" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /get/name HTTP/1.1", host: "localhost"
+2019/01/06 00:03:54 [error] 5399#0: *12 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/get/name" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /get/name HTTP/1.1", host: "localhost"
+2019/01/06 00:05:21 [notice] 5459#0: signal process started
+2019/01/06 00:05:21 [alert] 5225#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/06 00:05:38 [notice] 5498#0: signal process started
+2019/01/06 00:05:38 [alert] 5225#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/06 00:12:29 [emerg] 5570#0: "client_header_timeout" directive is not allowed here in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:177
+2019/01/06 00:12:30 [emerg] 5603#0: "client_header_timeout" directive is not allowed here in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:177
+2019/01/06 00:14:38 [emerg] 5647#0: "client_header_timeout" directive is not allowed here in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:177
+2019/01/06 00:14:42 [emerg] 5680#0: "client_header_timeout" directive is not allowed here in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:177
+2019/01/06 00:15:55 [notice] 5722#0: signal process started
+2019/01/06 00:15:55 [alert] 5225#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/06 00:15:57 [notice] 5756#0: signal process started
+2019/01/06 00:15:57 [alert] 5225#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/06 00:15:58 [notice] 5790#0: signal process started
+2019/01/06 00:15:58 [alert] 5225#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/06 00:17:10 [emerg] 5829#0: unknown directive "client_body_time" in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:51
+2019/01/06 00:17:12 [emerg] 5862#0: unknown directive "client_body_time" in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:51
+2019/01/06 00:17:24 [emerg] 5895#0: unknown directive "client_body_time" in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:51
+2019/01/06 00:17:46 [emerg] 5930#0: unknown directive "client_body_time" in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:31
+2019/01/06 00:17:54 [notice] 5966#0: signal process started
+2019/01/06 00:17:54 [alert] 5225#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/06 00:17:55 [notice] 6000#0: signal process started
+2019/01/06 00:17:55 [alert] 5225#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/06 00:19:36 [emerg] 6038#0: unknown directive "reset_timeout_connection" in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:31
+2019/01/06 00:19:38 [emerg] 6071#0: unknown directive "reset_timeout_connection" in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:31
+2019/01/06 00:19:41 [emerg] 6104#0: unknown directive "reset_timeout_connection" in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:31
+2019/01/06 00:20:22 [emerg] 6142#0: unknown directive "reset_timeout_connection" in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:50
+2019/01/06 00:20:23 [emerg] 6175#0: unknown directive "reset_timeout_connection" in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:50
+2019/01/06 00:20:26 [emerg] 6208#0: unknown directive "reset_timeout_connection" in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:50
+2019/01/06 00:21:20 [emerg] 6249#0: unknown directive "reset_timeout_connection" in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:50
+2019/01/06 00:22:52 [emerg] 6294#0: unknown directive "reset_timeout_connection" in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:50
+2019/01/06 00:23:37 [emerg] 6333#0: unknown directive "reset_timeout_connection" in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:177
+2019/01/06 00:23:38 [emerg] 6366#0: unknown directive "reset_timeout_connection" in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:177
+2019/01/06 00:23:45 [notice] 6401#0: signal process started
+2019/01/06 00:23:45 [alert] 5225#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/06 00:26:41 [emerg] 6443#0: unknown directive "merge_slashed" in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:28
+2019/01/06 00:26:42 [emerg] 6476#0: unknown directive "merge_slashed" in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:28
+2019/01/06 00:26:43 [emerg] 6509#0: unknown directive "merge_slashed" in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:28
+2019/01/06 00:27:33 [emerg] 6545#0: unknown directive "merge_slashed" in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:28
+2019/01/06 00:27:34 [emerg] 6578#0: unknown directive "merge_slashed" in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:28
+2019/01/06 00:27:36 [emerg] 6611#0: unknown directive "merge_slashed" in /Users/xiaoyueya/projects/luapro/light-api/src/bin/../../nginx-testing.conf:28
+2019/01/06 00:31:04 [notice] 6654#0: signal process started
+2019/01/06 00:31:04 [alert] 5225#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/06 00:31:06 [notice] 6688#0: signal process started
+2019/01/06 00:31:06 [alert] 5225#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/06 00:31:23 [notice] 6724#0: signal process started
+2019/01/06 00:31:23 [alert] 5225#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/06 00:35:13 [notice] 6768#0: signal process started
+2019/01/06 00:35:13 [alert] 5225#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/06 00:35:14 [notice] 6802#0: signal process started
+2019/01/06 00:35:14 [alert] 5225#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/01/18 12:02:16 [emerg] 42567#0: open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../logs/access.log" failed (13: Permission denied)
+2019/02/12 14:42:48 [alert] 37067#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/02/12 14:43:41 [error] 37069#0: *2 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost//test/jwt"
+2019/02/12 14:48:51 [notice] 37143#0: signal process started
+2019/02/12 14:48:51 [alert] 37068#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/02/12 14:49:14 [notice] 37181#0: signal process started
+2019/02/12 14:49:14 [alert] 37068#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/02/12 14:49:15 [notice] 37215#0: signal process started
+2019/02/12 14:49:15 [alert] 37068#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/02/12 14:49:15 [notice] 37249#0: signal process started
+2019/02/12 14:49:15 [alert] 37068#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/02/12 14:49:16 [notice] 37283#0: signal process started
+2019/02/12 14:49:16 [alert] 37068#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/02/12 14:49:17 [notice] 37317#0: signal process started
+2019/02/12 14:49:17 [alert] 37068#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/02/12 14:50:01 [notice] 37355#0: signal process started
+2019/02/12 14:50:01 [alert] 37068#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/02/12 14:50:02 [notice] 37389#0: signal process started
+2019/02/12 14:50:02 [alert] 37068#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/02/12 14:50:02 [notice] 37423#0: signal process started
+2019/02/12 14:50:02 [alert] 37068#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/02/12 14:50:03 [notice] 37457#0: signal process started
+2019/02/12 14:50:03 [alert] 37068#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/02/12 14:50:04 [notice] 37491#0: signal process started
+2019/02/12 14:50:04 [alert] 37068#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/02/12 14:50:04 [notice] 37525#0: signal process started
+2019/02/12 14:50:04 [alert] 37068#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/02/12 14:51:03 [notice] 37620#0: signal process started
+2019/02/12 14:51:03 [alert] 37068#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/02/12 14:51:04 [notice] 37654#0: signal process started
+2019/02/12 14:51:04 [alert] 37068#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/02/12 14:51:58 [notice] 37694#0: signal process started
+2019/02/12 14:52:11 [alert] 37728#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/02/12 14:52:16 [notice] 37763#0: signal process started
+2019/02/12 14:52:16 [alert] 37729#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/02/12 14:52:18 [notice] 37797#0: signal process started
+2019/02/12 14:52:18 [alert] 37729#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/02/12 14:52:18 [notice] 37831#0: signal process started
+2019/02/12 14:52:18 [alert] 37729#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/02/12 14:54:14 [error] 37833#0: *7 lua entry thread aborted: runtime error: ...-api/src/bin/../../src/location/access_auth_location.lua:14: Debugger connection closed
+stack traceback:
+coroutine 0:
+	...-api/src/bin/../../src/location/access_auth_location.lua: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:14 [error] 37833#0: *7 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:17 [error] 37833#0: *8 lua entry thread aborted: runtime error: ./mobdebug.lua:494: attempt to index local 'peer' (a nil value)
+stack traceback:
+coroutine 0:
+	...-api/src/bin/../../src/location/access_auth_location.lua: in function <...-api/src/bin/../../src/location/access_auth_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:17 [error] 37833#0: *8 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:18 [error] 37833#0: *9 lua: failed to run factory at key "nhlf_8b623deca7aaddf423f09c7cd910ad86": ./mobdebug.lua:494: attempt to index local 'peer' (a nil value), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:18 [error] 37833#0: *9 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:18 [error] 37833#0: *10 lua: failed to run factory at key "nhlf_8b623deca7aaddf423f09c7cd910ad86": ./mobdebug.lua:494: attempt to index local 'peer' (a nil value), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:18 [error] 37833#0: *10 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:18 [error] 37833#0: *11 lua: failed to run factory at key "nhlf_8b623deca7aaddf423f09c7cd910ad86": ./mobdebug.lua:494: attempt to index local 'peer' (a nil value), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:18 [error] 37833#0: *11 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:18 [error] 37833#0: *12 lua: failed to run factory at key "nhlf_8b623deca7aaddf423f09c7cd910ad86": ./mobdebug.lua:494: attempt to index local 'peer' (a nil value), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:18 [error] 37833#0: *12 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:19 [error] 37833#0: *13 lua: failed to run factory at key "nhlf_8b623deca7aaddf423f09c7cd910ad86": ./mobdebug.lua:494: attempt to index local 'peer' (a nil value), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:19 [error] 37833#0: *13 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:19 [error] 37833#0: *14 lua: failed to run factory at key "nhlf_8b623deca7aaddf423f09c7cd910ad86": ./mobdebug.lua:494: attempt to index local 'peer' (a nil value), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:19 [error] 37833#0: *14 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:19 [error] 37833#0: *15 lua: failed to run factory at key "nhlf_8b623deca7aaddf423f09c7cd910ad86": ./mobdebug.lua:494: attempt to index local 'peer' (a nil value), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:19 [error] 37833#0: *15 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:19 [error] 37833#0: *16 lua: failed to run factory at key "nhlf_8b623deca7aaddf423f09c7cd910ad86": ./mobdebug.lua:494: attempt to index local 'peer' (a nil value), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:19 [error] 37833#0: *16 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:20 [error] 37833#0: *17 lua: failed to run factory at key "nhlf_8b623deca7aaddf423f09c7cd910ad86": ./mobdebug.lua:494: attempt to index local 'peer' (a nil value), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:20 [error] 37833#0: *17 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:25 [error] 37833#0: *18 lua: failed to run factory at key "nhlf_8b623deca7aaddf423f09c7cd910ad86": ./mobdebug.lua:494: attempt to index local 'peer' (a nil value), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:25 [error] 37833#0: *18 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:27 [error] 37833#0: *19 lua: failed to run factory at key "nhlf_8b623deca7aaddf423f09c7cd910ad86": ./mobdebug.lua:494: attempt to index local 'peer' (a nil value), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:27 [error] 37833#0: *19 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:27 [error] 37833#0: *20 lua: failed to run factory at key "nhlf_8b623deca7aaddf423f09c7cd910ad86": ./mobdebug.lua:494: attempt to index local 'peer' (a nil value), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:27 [error] 37833#0: *20 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:27 [error] 37833#0: *21 lua: failed to run factory at key "nhlf_8b623deca7aaddf423f09c7cd910ad86": ./mobdebug.lua:494: attempt to index local 'peer' (a nil value), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:27 [error] 37833#0: *21 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:27 [error] 37833#0: *22 lua: failed to run factory at key "nhlf_8b623deca7aaddf423f09c7cd910ad86": ./mobdebug.lua:494: attempt to index local 'peer' (a nil value), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:27 [error] 37833#0: *22 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU HTTP/1.1", host: "localhost"
+2019/02/12 14:54:46 [notice] 37881#0: signal process started
+2019/02/12 14:54:46 [alert] 37729#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/02/12 14:54:47 [notice] 37915#0: signal process started
+2019/02/12 14:54:47 [alert] 37729#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/02/12 14:54:48 [notice] 37949#0: signal process started
+2019/02/12 14:54:48 [alert] 37729#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/02/12 14:54:49 [notice] 37983#0: signal process started
+2019/02/12 14:54:49 [alert] 37729#0: [lua] loading_config.lua:68:         The profile is debug .
+2019/02/12 14:54:52 [alert] 37985#0: *28 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: 127.0.0.1, server: 0.0.0.0:80
+2019/02/12 14:55:22 [error] 37985#0: *52 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU"
