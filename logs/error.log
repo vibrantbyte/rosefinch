@@ -646,3 +646,846 @@ coroutine 0:
 2019/02/12 14:54:49 [alert] 37729#0: [lua] loading_config.lua:68:         The profile is debug .
 2019/02/12 14:54:52 [alert] 37985#0: *28 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: 127.0.0.1, server: 0.0.0.0:80
 2019/02/12 14:55:22 [error] 37985#0: *52 open() "/Users/xiaoyueya/projects/luapro/light-api/src/bin/../../html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/v1/auth/users/11?app_token=hh8z33X6iywtm5-8oYNF6Fuf08htkZOwizF-QVY-XdU"
+2019/05/31 17:05:31 [alert] 28222#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/05/31 17:06:21 [error] 28224#0: *2 lua entry thread aborted: runtime error: ./src/helper/mysql_helper.lua:11: attempt to index global 'mysql_clint' (a nil value)
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:7: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET //v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/05/31 17:06:21 [error] 28224#0: *2 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET //v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:30:39 [alert] 33604#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:30:39 [emerg] 33604#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/06/01 14:30:39 [emerg] 33604#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/06/01 14:30:39 [emerg] 33604#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/06/01 14:30:39 [emerg] 33604#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/06/01 14:30:39 [emerg] 33604#0: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2019/06/01 14:34:30 [notice] 33697#0: signal process started
+2019/06/01 14:34:30 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:34:32 [notice] 33731#0: signal process started
+2019/06/01 14:34:32 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:34:34 [error] 33733#0: *24 lua entry thread aborted: runtime error: ./src/service/config_from_mysql.lua:10: attempt to perform arithmetic on a string value
+stack traceback:
+coroutine 0:
+	./src/service/config_from_mysql.lua: in function 'getTimeFromCity'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:10: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:34:34 [error] 33733#0: *24 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:38:20 [notice] 33796#0: signal process started
+2019/06/01 14:38:20 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:38:27 [error] 33798#0: *26 [lua] mysql_helper.lua:51: close(): failed to set keepalive: cannot be reused in the current connection state: nil, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:38:27 [error] 33798#0: *26 attempt to set status 500 via ngx.exit after sending out the response status 200, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:39:33 [notice] 33833#0: signal process started
+2019/06/01 14:39:33 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:39:35 [error] 33835#0: *28 [lua] mysql_helper.lua:51: close(): failed to set keepalive: cannot be reused in the current connection state: nil, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:39:35 [error] 33835#0: *28 attempt to set status 500 via ngx.exit after sending out the response status 200, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:39:38 [error] 33835#0: *29 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:10: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:39:38 [error] 33835#0: *29 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:39:39 [error] 33835#0: *30 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:10: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:39:39 [error] 33835#0: *30 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:39:39 [error] 33835#0: *31 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:10: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:39:39 [error] 33835#0: *31 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:39:40 [error] 33835#0: *32 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:10: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:39:40 [error] 33835#0: *32 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:44:11 [notice] 33888#0: signal process started
+2019/06/01 14:44:11 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:44:12 [notice] 33922#0: signal process started
+2019/06/01 14:44:12 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:44:16 [error] 33924#0: *35 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to index local 'config_service' (a boolean value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:44:16 [error] 33924#0: *35 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:44:17 [error] 33924#0: *36 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to index local 'config_service' (a boolean value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:44:17 [error] 33924#0: *36 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:44:17 [error] 33924#0: *37 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to index local 'config_service' (a boolean value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:44:17 [error] 33924#0: *37 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:44:17 [error] 33924#0: *38 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to index local 'config_service' (a boolean value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:44:17 [error] 33924#0: *38 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:44:17 [error] 33924#0: *39 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to index local 'config_service' (a boolean value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:44:17 [error] 33924#0: *39 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:44:18 [error] 33924#0: *40 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to index local 'config_service' (a boolean value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:44:18 [error] 33924#0: *40 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:44:18 [error] 33924#0: *41 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to index local 'config_service' (a boolean value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:44:18 [error] 33924#0: *41 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:44:18 [error] 33924#0: *42 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to index local 'config_service' (a boolean value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:44:18 [error] 33924#0: *42 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:44:18 [error] 33924#0: *43 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to index local 'config_service' (a boolean value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:44:18 [error] 33924#0: *43 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:46:09 [notice] 33964#0: signal process started
+2019/06/01 14:46:09 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:46:09 [notice] 33998#0: signal process started
+2019/06/01 14:46:09 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:46:13 [error] 34000#0: *46 [lua] mysql_helper.lua:51: close(): failed to set keepalive: cannot be reused in the current connection state: nil, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:46:13 [error] 34000#0: *46 attempt to set status 500 via ngx.exit after sending out the response status 200, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:48:10 [notice] 34046#0: signal process started
+2019/06/01 14:48:10 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:48:12 [notice] 34080#0: signal process started
+2019/06/01 14:48:12 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:48:16 [error] 34082#0: *50 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:48:16 [error] 34082#0: *50 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:48:17 [error] 34082#0: *51 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:48:17 [error] 34082#0: *51 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:48:17 [error] 34082#0: *52 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:48:17 [error] 34082#0: *52 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:48:18 [error] 34082#0: *53 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:48:18 [error] 34082#0: *53 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:48:18 [error] 34082#0: *54 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:48:18 [error] 34082#0: *54 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:48:19 [error] 34082#0: *55 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:48:19 [error] 34082#0: *55 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:48:19 [error] 34082#0: *56 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:48:19 [error] 34082#0: *56 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:49:07 [notice] 34124#0: signal process started
+2019/06/01 14:49:07 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:49:08 [notice] 34158#0: signal process started
+2019/06/01 14:49:08 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:49:09 [error] 34160#0: *59 lua entry thread aborted: runtime error: error loading module 'src.conf.mysql_conf' from file './src/conf/mysql_conf.lua':
+	./src/conf/mysql_conf.lua:58: unexpected symbol near 'return'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:7: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:49:09 [error] 34160#0: *59 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:49:12 [error] 34160#0: *60 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:49:12 [error] 34160#0: *60 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:49:12 [error] 34160#0: *61 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:49:12 [error] 34160#0: *61 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:49:12 [error] 34160#0: *62 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:49:12 [error] 34160#0: *62 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:49:12 [error] 34160#0: *63 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:49:12 [error] 34160#0: *63 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:49:13 [error] 34160#0: *64 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:49:13 [error] 34160#0: *64 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:49:13 [error] 34160#0: *65 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:49:13 [error] 34160#0: *65 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:49:16 [notice] 34197#0: signal process started
+2019/06/01 14:49:16 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:49:17 [notice] 34231#0: signal process started
+2019/06/01 14:49:17 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:49:18 [notice] 34265#0: signal process started
+2019/06/01 14:49:18 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:49:46 [notice] 34301#0: signal process started
+2019/06/01 14:49:46 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:49:47 [notice] 34335#0: signal process started
+2019/06/01 14:49:47 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:49:47 [notice] 34369#0: signal process started
+2019/06/01 14:49:47 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:50:20 [notice] 34409#0: signal process started
+2019/06/01 14:50:20 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:50:21 [notice] 34443#0: signal process started
+2019/06/01 14:50:21 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:50:28 [error] 34445#0: *78 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:28 [error] 34445#0: *78 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:28 [error] 34445#0: *79 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:28 [error] 34445#0: *79 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:29 [error] 34445#0: *80 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:29 [error] 34445#0: *80 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:29 [error] 34445#0: *81 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:29 [error] 34445#0: *81 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:30 [error] 34445#0: *82 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:30 [error] 34445#0: *82 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:30 [error] 34445#0: *83 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:30 [error] 34445#0: *83 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:30 [error] 34445#0: *84 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:30 [error] 34445#0: *84 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:30 [error] 34445#0: *85 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:30 [error] 34445#0: *85 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:30 [error] 34445#0: *86 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:30 [error] 34445#0: *86 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:31 [error] 34445#0: *87 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:31 [error] 34445#0: *87 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:31 [error] 34445#0: *88 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:31 [error] 34445#0: *88 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:31 [error] 34445#0: *89 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:31 [error] 34445#0: *89 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:31 [error] 34445#0: *90 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:31 [error] 34445#0: *90 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:31 [error] 34445#0: *91 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:31 [error] 34445#0: *91 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:32 [error] 34445#0: *92 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:32 [error] 34445#0: *92 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:32 [error] 34445#0: *93 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:32 [error] 34445#0: *93 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:36 [notice] 34478#0: signal process started
+2019/06/01 14:50:36 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:50:39 [error] 34480#0: *97 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:50:39 [error] 34480#0: *97 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:51:22 [error] 34480#0: *98 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:51:22 [error] 34480#0: *98 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:51:22 [error] 34480#0: *99 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:51:22 [error] 34480#0: *99 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:51:22 [error] 34480#0: *100 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:51:22 [error] 34480#0: *100 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:51:22 [error] 34480#0: *101 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:51:22 [error] 34480#0: *101 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:00 [notice] 34517#0: signal process started
+2019/06/01 14:52:00 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:52:03 [error] 34519#0: *105 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:03 [error] 34519#0: *105 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:04 [error] 34519#0: *106 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:04 [error] 34519#0: *106 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:05 [error] 34519#0: *107 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:05 [error] 34519#0: *107 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:05 [error] 34519#0: *108 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:05 [error] 34519#0: *108 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:05 [error] 34519#0: *109 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:05 [error] 34519#0: *109 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:05 [error] 34519#0: *110 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:05 [error] 34519#0: *110 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:05 [error] 34519#0: *111 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:05 [error] 34519#0: *111 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:06 [error] 34519#0: *112 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:06 [error] 34519#0: *112 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:06 [error] 34519#0: *113 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:06 [error] 34519#0: *113 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:06 [error] 34519#0: *114 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:06 [error] 34519#0: *114 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:06 [error] 34519#0: *115 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:06 [error] 34519#0: *115 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:07 [error] 34519#0: *116 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:07 [error] 34519#0: *116 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:07 [error] 34519#0: *117 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:07 [error] 34519#0: *117 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:12 [error] 34519#0: *118 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:12 [error] 34519#0: *118 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:15 [notice] 34554#0: signal process started
+2019/06/01 14:52:15 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:52:19 [error] 34556#0: *122 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:52:19 [error] 34556#0: *122 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:53:10 [notice] 34591#0: signal process started
+2019/06/01 14:53:10 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:53:11 [notice] 34625#0: signal process started
+2019/06/01 14:53:11 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:55:32 [notice] 34674#0: signal process started
+2019/06/01 14:55:32 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:55:33 [notice] 34708#0: signal process started
+2019/06/01 14:55:33 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:55:36 [notice] 34742#0: signal process started
+2019/06/01 14:55:36 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:59:36 [notice] 34791#0: signal process started
+2019/06/01 14:59:36 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:59:37 [notice] 34825#0: signal process started
+2019/06/01 14:59:37 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:59:41 [error] 34827#0: *130 lua entry thread aborted: runtime error: ./src/helper/mysql_helper.lua:31: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./src/helper/mysql_helper.lua: in function 'connection'
+	./src/helper/mysql_helper.lua:83: in function 'query'
+	./src/service/config_from_mysql.lua:11: in function 'getTimeFromCity'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:9: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:59:41 [error] 34827#0: *130 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:59:42 [error] 34827#0: *131 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:59:42 [error] 34827#0: *131 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:59:42 [error] 34827#0: *132 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:59:42 [error] 34827#0: *132 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:59:42 [error] 34827#0: *133 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:59:42 [error] 34827#0: *133 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:59:43 [error] 34827#0: *134 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:59:43 [error] 34827#0: *134 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:59:47 [notice] 34864#0: signal process started
+2019/06/01 14:59:47 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:59:48 [notice] 34898#0: signal process started
+2019/06/01 14:59:48 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 14:59:50 [error] 34900#0: *137 lua entry thread aborted: runtime error: ./src/helper/mysql_helper.lua:31: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./src/helper/mysql_helper.lua: in function 'connection'
+	./src/helper/mysql_helper.lua:83: in function 'query'
+	./src/service/config_from_mysql.lua:11: in function 'getTimeFromCity'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:9: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:59:50 [error] 34900#0: *137 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:59:51 [error] 34900#0: *138 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 14:59:51 [error] 34900#0: *138 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:00:15 [notice] 34934#0: signal process started
+2019/06/01 15:00:15 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:00:19 [error] 34936#0: *142 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:00:19 [error] 34936#0: *142 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:00:19 [error] 34936#0: *143 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:00:19 [error] 34936#0: *143 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:00:20 [error] 34936#0: *144 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:00:20 [error] 34936#0: *144 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:00:43 [notice] 34970#0: signal process started
+2019/06/01 15:00:43 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:00:44 [notice] 35004#0: signal process started
+2019/06/01 15:00:44 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:00:45 [notice] 35038#0: signal process started
+2019/06/01 15:00:45 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:00:48 [error] 35040#0: *150 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:00:48 [error] 35040#0: *150 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:00:49 [error] 35040#0: *151 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:00:49 [error] 35040#0: *151 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:00:49 [error] 35040#0: *152 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:00:49 [error] 35040#0: *152 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:00:49 [error] 35040#0: *153 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:00:49 [error] 35040#0: *153 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:00:54 [notice] 35073#0: signal process started
+2019/06/01 15:00:54 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:06:47 [notice] 35152#0: signal process started
+2019/06/01 15:06:47 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:06:51 [error] 35154#0: *156 lua entry thread aborted: runtime error: ./src/helper/mysql_helper.lua:20: attempt to index global 'this' (a nil value)
+stack traceback:
+coroutine 0:
+	./src/helper/mysql_helper.lua: in function 'initial'
+	./src/helper/mysql_helper.lua:36: in function 'connection'
+	./src/helper/mysql_helper.lua:89: in function 'query'
+	./src/service/config_from_mysql.lua:11: in function 'getTimeFromCity'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:9: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:06:51 [error] 35154#0: *156 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:06:52 [error] 35154#0: *157 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:06:52 [error] 35154#0: *157 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:06:52 [error] 35154#0: *158 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:06:52 [error] 35154#0: *158 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:06:52 [error] 35154#0: *159 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:06:52 [error] 35154#0: *159 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:07:44 [notice] 35192#0: signal process started
+2019/06/01 15:07:44 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:07:45 [notice] 35226#0: signal process started
+2019/06/01 15:07:45 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:07:48 [error] 35228#0: *162 lua entry thread aborted: runtime error: ./src/helper/mysql_helper.lua:37: attempt to index field 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./src/helper/mysql_helper.lua: in function 'connection'
+	./src/helper/mysql_helper.lua:89: in function 'query'
+	./src/service/config_from_mysql.lua:11: in function 'getTimeFromCity'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:9: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:07:48 [error] 35228#0: *162 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:07:49 [error] 35228#0: *163 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:07:49 [error] 35228#0: *163 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:07:49 [error] 35228#0: *164 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:07:49 [error] 35228#0: *164 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:07:50 [error] 35228#0: *165 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:07:50 [error] 35228#0: *165 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:10:33 [notice] 35272#0: signal process started
+2019/06/01 15:10:33 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:10:34 [notice] 35306#0: signal process started
+2019/06/01 15:10:34 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:10:34 [notice] 35340#0: signal process started
+2019/06/01 15:10:34 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:10:38 [error] 35342#0: *171 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:10:38 [error] 35342#0: *171 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:10:39 [error] 35342#0: *172 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:10:39 [error] 35342#0: *172 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:10:40 [error] 35342#0: *173 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:10:40 [error] 35342#0: *173 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:10:40 [error] 35342#0: *174 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:10:40 [error] 35342#0: *174 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:10:40 [error] 35342#0: *175 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:10:40 [error] 35342#0: *175 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:10:41 [error] 35342#0: *176 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:10:41 [error] 35342#0: *176 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:10:41 [error] 35342#0: *177 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:10:41 [error] 35342#0: *177 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:11:49 [notice] 35382#0: signal process started
+2019/06/01 15:11:49 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:11:55 [error] 35384#0: *181 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:11:55 [error] 35384#0: *181 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:11:56 [error] 35384#0: *182 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:11:56 [error] 35384#0: *182 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:11:56 [error] 35384#0: *183 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:11:56 [error] 35384#0: *183 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:11:57 [error] 35384#0: *184 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:11:57 [error] 35384#0: *184 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:11:57 [error] 35384#0: *185 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:11:57 [error] 35384#0: *185 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:12:08 [notice] 35419#0: signal process started
+2019/06/01 15:12:08 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:12:12 [error] 35421#0: *189 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:12:12 [error] 35421#0: *189 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:13:01 [notice] 35458#0: signal process started
+2019/06/01 15:13:01 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:13:04 [error] 35460#0: *193 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:13:04 [error] 35460#0: *193 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:13:05 [error] 35460#0: *194 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:13:05 [error] 35460#0: *194 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:13:06 [error] 35460#0: *195 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:13:06 [error] 35460#0: *195 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:15:07 [notice] 35661#0: signal process started
+2019/06/01 15:15:07 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:15:08 [notice] 35695#0: signal process started
+2019/06/01 15:15:08 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:15:13 [error] 35697#0: *200 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:15:13 [error] 35697#0: *200 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:15:14 [error] 35697#0: *201 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:15:14 [error] 35697#0: *201 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:15:14 [error] 35697#0: *202 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:15:14 [error] 35697#0: *202 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:15:14 [error] 35697#0: *203 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:15:14 [error] 35697#0: *203 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:15:14 [error] 35697#0: *204 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:15:14 [error] 35697#0: *204 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:15:15 [error] 35697#0: *205 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:15:15 [error] 35697#0: *205 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:15:15 [error] 35697#0: *206 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:15:15 [error] 35697#0: *206 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:15:27 [notice] 35732#0: signal process started
+2019/06/01 15:15:27 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:15:30 [error] 35734#0: *208 lua entry thread aborted: runtime error: ./src/helper/mysql_helper.lua:91: attempt to index upvalue 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./src/helper/mysql_helper.lua: in function 'getTimeFromCity'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:9: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:15:30 [error] 35734#0: *208 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:15:30 [error] 35734#0: *209 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:15:30 [error] 35734#0: *209 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:15:31 [error] 35734#0: *210 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:15:31 [error] 35734#0: *210 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:15:31 [error] 35734#0: *211 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:15:31 [error] 35734#0: *211 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:17:15 [notice] 35776#0: signal process started
+2019/06/01 15:17:15 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:17:16 [notice] 35810#0: signal process started
+2019/06/01 15:17:16 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:17:19 [error] 35812#0: *216 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:17:19 [error] 35812#0: *216 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:17:20 [error] 35812#0: *217 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:17:20 [error] 35812#0: *217 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:17:21 [error] 35812#0: *218 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:17:21 [error] 35812#0: *218 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:17:21 [error] 35812#0: *219 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call global 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:17:21 [error] 35812#0: *219 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:21:41 [notice] 35877#0: signal process started
+2019/06/01 15:21:41 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:21:44 [error] 35879#0: *221 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to index local 'cityTimeService' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:21:44 [error] 35879#0: *221 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:21:45 [error] 35879#0: *222 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to index local 'cityTimeService' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:21:45 [error] 35879#0: *222 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:21:45 [error] 35879#0: *223 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to index local 'cityTimeService' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:21:45 [error] 35879#0: *223 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:21:56 [notice] 35917#0: signal process started
+2019/06/01 15:21:56 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:21:57 [error] 35919#0: *225 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call field 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:21:57 [error] 35919#0: *225 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:21:58 [error] 35919#0: *226 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: attempt to call field 'getTimeFromCity' (a nil value)
+stack traceback:
+coroutine 0:
+	...finch/src/bin/../../src/location/mysql_read_location.lua: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:21:58 [error] 35919#0: *226 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:22:17 [notice] 35953#0: signal process started
+2019/06/01 15:22:17 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:26:06 [notice] 36003#0: signal process started
+2019/06/01 15:26:06 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:26:07 [notice] 36037#0: signal process started
+2019/06/01 15:26:07 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:26:11 [error] 36039#0: *274 lua entry thread aborted: runtime error: ./src/helper/mysql_helper.lua:33: attempt to index upvalue 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./src/helper/mysql_helper.lua: in function 'connection'
+	./src/helper/mysql_helper.lua:85: in function 'getTimeFromCIty'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:9: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:26:11 [error] 36039#0: *274 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:26:12 [error] 36039#0: *275 lua entry thread aborted: runtime error: ./src/helper/mysql_helper.lua:33: attempt to index upvalue 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./src/helper/mysql_helper.lua: in function 'connection'
+	./src/helper/mysql_helper.lua:85: in function 'getTimeFromCIty'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:9: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:26:12 [error] 36039#0: *275 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:26:12 [error] 36039#0: *276 lua entry thread aborted: runtime error: ./src/helper/mysql_helper.lua:33: attempt to index upvalue 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./src/helper/mysql_helper.lua: in function 'connection'
+	./src/helper/mysql_helper.lua:85: in function 'getTimeFromCIty'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:9: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:26:12 [error] 36039#0: *276 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:26:12 [error] 36039#0: *277 lua entry thread aborted: runtime error: ./src/helper/mysql_helper.lua:33: attempt to index upvalue 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./src/helper/mysql_helper.lua: in function 'connection'
+	./src/helper/mysql_helper.lua:85: in function 'getTimeFromCIty'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:9: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:26:12 [error] 36039#0: *277 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:26:13 [error] 36039#0: *278 lua entry thread aborted: runtime error: ./src/helper/mysql_helper.lua:33: attempt to index upvalue 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./src/helper/mysql_helper.lua: in function 'connection'
+	./src/helper/mysql_helper.lua:85: in function 'getTimeFromCIty'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:9: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:26:13 [error] 36039#0: *278 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:27:00 [notice] 36078#0: signal process started
+2019/06/01 15:27:00 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:27:01 [notice] 36112#0: signal process started
+2019/06/01 15:27:01 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:27:02 [notice] 36146#0: signal process started
+2019/06/01 15:27:02 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:27:06 [error] 36148#0: *284 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:571: bad request
+stack traceback:
+coroutine 0:
+	[C]: in function 'connect'
+	/usr/local/openresty/lualib/resty/mysql.lua:571: in function 'connect'
+	./src/helper/mysql_helper.lua:33: in function 'connection'
+	./src/helper/mysql_helper.lua:85: in function 'getTimeFromCIty'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:9: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:27:06 [error] 36148#0: *284 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:27:06 [error] 36148#0: *285 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:571: bad request
+stack traceback:
+coroutine 0:
+	[C]: in function 'connect'
+	/usr/local/openresty/lualib/resty/mysql.lua:571: in function 'connect'
+	./src/helper/mysql_helper.lua:33: in function 'connection'
+	./src/helper/mysql_helper.lua:85: in function 'getTimeFromCIty'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:9: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:27:06 [error] 36148#0: *285 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:27:07 [error] 36148#0: *286 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:571: bad request
+stack traceback:
+coroutine 0:
+	[C]: in function 'connect'
+	/usr/local/openresty/lualib/resty/mysql.lua:571: in function 'connect'
+	./src/helper/mysql_helper.lua:33: in function 'connection'
+	./src/helper/mysql_helper.lua:85: in function 'getTimeFromCIty'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:9: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:27:07 [error] 36148#0: *286 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:27:07 [error] 36148#0: *287 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:571: bad request
+stack traceback:
+coroutine 0:
+	[C]: in function 'connect'
+	/usr/local/openresty/lualib/resty/mysql.lua:571: in function 'connect'
+	./src/helper/mysql_helper.lua:33: in function 'connection'
+	./src/helper/mysql_helper.lua:85: in function 'getTimeFromCIty'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:9: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:27:07 [error] 36148#0: *287 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /v1/distribution/flow HTTP/1.1", host: "localhost"
+2019/06/01 15:28:30 [notice] 36184#0: signal process started
+2019/06/01 15:28:30 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:28:32 [notice] 36218#0: signal process started
+2019/06/01 15:28:32 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:36:09 [notice] 36302#0: signal process started
+2019/06/01 15:36:09 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 15:36:11 [notice] 36336#0: signal process started
+2019/06/01 15:36:11 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
