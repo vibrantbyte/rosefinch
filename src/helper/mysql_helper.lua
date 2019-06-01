@@ -34,7 +34,6 @@ local function getdb()
         ngx.say("failed to connect: ", err, ": ", err_code, " ", sqlstate)
         return nil
     end
-    ngx.say("connected to mysql.")
     return db;
 end
 

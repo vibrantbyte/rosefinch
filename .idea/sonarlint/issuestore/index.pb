@@ -13,12 +13,8 @@ Q
 !src/helper/redis_factory_test.lua,0/9/09449efde15f2ade9243b60a1cc80856ae94f109
 O
 src/helper/http_client_test.lua,5/0/50ef8151c299ed2b2a1326d5bfea627a20d9b67c
-P
- src/helper/mysql_helper_test.lua,4/3/4328b43ef4974b76a597f6f3719c80befab412e5
 V
 &src/location/module_cache_location.lua,b/c/bc3e8f7faa5f11d8dd881d5c9aab994df29ed31c
-Q
-!src/service/config_from_mysql.lua,7/1/710b873710bece72832a46b8a522aa956fbf46e4
 T
 $src/location/mysql_read_location.lua,7/7/7788aa6420f208d432e4fbc5c6436747c1d3a51c
 B
@@ -41,3 +37,21 @@ G
 src/conf/mysql_conf.lua,e/a/eaccbe11fe097155bb8b9061fe7b35be18ae4b32
 K
 src/helper/mysql_helper.lua,4/0/4086ded40413c4acd1c411955742048334e54399
+M
+src/service/redis_service.lua,3/a/3a2a1bdf165dfa74e68e51bafb34764b1d924bb8
+K
+src/service/jwt_service.lua,a/a/aa2f1773ce2659603fb56645e1c48a24ae587bbc
+V
+&src/location/jwt_generate_location.lua,3/b/3b9020ff5bafd364f0bca868c1de6d3e82c04f15
+>
+logs/nginx.pid,a/0/a0db2741522c45f4079029194a31528b22312449
+N
+src/location/base_location.lua,a/8/a82cc6192a100f90200223ad7d962962deecdefc
+Q
+!src/service/city_time_service.lua,c/e/ce5041ff632c47682dc2fcdc4a6be600010b681a
+Q
+!src/service/authority_service.lua,6/6/66fd386034baef36e16e1efe8968d847530dff6b
+U
+%src/location/shared_dict_location.lua,7/c/7c634763126743a3bbaed7e31aba1db78e11ca9b
+N
+src/location/auth_location.lua,d/1/d14680797ab4e03da9192d66da64b01f92d6350a
