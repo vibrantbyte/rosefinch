@@ -43,8 +43,6 @@ K
 src/service/jwt_service.lua,a/a/aa2f1773ce2659603fb56645e1c48a24ae587bbc
 V
 &src/location/jwt_generate_location.lua,3/b/3b9020ff5bafd364f0bca868c1de6d3e82c04f15
->
-logs/nginx.pid,a/0/a0db2741522c45f4079029194a31528b22312449
 N
 src/location/base_location.lua,a/8/a82cc6192a100f90200223ad7d962962deecdefc
 Q
@@ -55,3 +53,5 @@ U
 %src/location/shared_dict_location.lua,7/c/7c634763126743a3bbaed7e31aba1db78e11ca9b
 N
 src/location/auth_location.lua,d/1/d14680797ab4e03da9192d66da64b01f92d6350a
+2
+on,d/b/db3d405b10675998c030223177d42e71b4e7a312

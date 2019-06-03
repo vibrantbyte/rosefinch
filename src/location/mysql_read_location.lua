@@ -16,16 +16,11 @@ for key, val in pairs(args) do
     end
 end
 
---- 2、拼接url
-local distributionUrl = cityTimeService.getUrl();
+----- 2、拼接url
 local request_uri = ngx.var.request_uri;
-local url = ""
-local urlLen = (distributionUrl and #distributionUrl) or 0;
-if urlLen > 0 then
-    url = distributionUrl[1].url..request_uri;
-else
-    url = "http://localhost:8087"..request_uri;
-end
+local path = "/v1/distribution/flow";
+local url = string.sub(request_uri,string.len(path) + 1,-1);
+
 --- 如果没有这个参数不做处理
 local current = 0;
 if city then
@@ -38,13 +33,11 @@ if city then
     end
 end
 
-ngx.req.read_body();
---- current = current,
 ngx.req.set_header("CurrentTime",current);
-local res = ngx.location.capture('/limit_internet_proxy',
+local res = ngx.location.capture('/limit_internet_proxy'..url,
         {
             method = ngx.HTTP_POST,
-            copy_all_vars = true
+            copy_all_vars = true,
         }
 );
 

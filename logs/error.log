@@ -3083,3 +3083,660 @@ coroutine 0:
 2019/06/01 18:46:26 [error] 46489#0: *1671 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
 2019/06/01 18:46:26 [error] 46489#0: *1672 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
 2019/06/01 18:46:26 [error] 46489#0: *1673 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:47:10 [error] 46489#0: *1674 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:47:10 [error] 46489#0: *1676 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:47:10 [error] 46489#0: *1677 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:49:02 [notice] 46657#0: signal process started
+2019/06/01 18:49:02 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 18:49:02 [notice] 46691#0: signal process started
+2019/06/01 18:49:02 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 18:49:03 [notice] 46725#0: signal process started
+2019/06/01 18:49:03 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 18:49:04 [notice] 46759#0: signal process started
+2019/06/01 18:49:04 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 18:49:07 [error] 46761#0: *1682 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:49:08 [error] 46761#0: *1684 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:49:10 [error] 46761#0: *1685 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:49:10 [error] 46761#0: *1686 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:49:10 [error] 46761#0: *1687 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:49:10 [error] 46761#0: *1688 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:09 [emerg] 46812#0: invalid number of arguments in "set" directive in /Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../nginx-testing.conf:157
+2019/06/01 18:52:10 [emerg] 46845#0: invalid number of arguments in "set" directive in /Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../nginx-testing.conf:157
+2019/06/01 18:52:11 [emerg] 46878#0: invalid number of arguments in "set" directive in /Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../nginx-testing.conf:157
+2019/06/01 18:52:14 [error] 46761#0: *1689 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:15 [error] 46761#0: *1691 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:15 [error] 46761#0: *1692 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:15 [error] 46761#0: *1693 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:15 [error] 46761#0: *1694 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:16 [error] 46761#0: *1695 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:16 [error] 46761#0: *1696 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:16 [error] 46761#0: *1697 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:16 [error] 46761#0: *1698 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:17 [error] 46761#0: *1699 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:17 [error] 46761#0: *1700 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:17 [error] 46761#0: *1701 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:18 [error] 46761#0: *1702 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:18 [error] 46761#0: *1703 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:18 [error] 46761#0: *1704 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:19 [error] 46761#0: *1705 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:19 [error] 46761#0: *1706 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:19 [error] 46761#0: *1707 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:20 [error] 46761#0: *1708 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:21 [error] 46761#0: *1709 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:22 [error] 46761#0: *1710 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:23 [error] 46761#0: *1711 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:24 [error] 46761#0: *1712 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:24 [error] 46761#0: *1713 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:25 [error] 46761#0: *1714 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:25 [error] 46761#0: *1715 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:25 [error] 46761#0: *1716 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:26 [error] 46761#0: *1717 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:26 [error] 46761#0: *1718 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:27 [error] 46761#0: *1719 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:27 [error] 46761#0: *1720 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:27 [error] 46761#0: *1721 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:30 [error] 46761#0: *1722 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:30 [error] 46761#0: *1723 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:30 [error] 46761#0: *1724 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:31 [error] 46761#0: *1725 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:39 [error] 46761#0: *1726 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:39 [error] 46761#0: *1727 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:39 [error] 46761#0: *1728 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:39 [error] 46761#0: *1729 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:40 [error] 46761#0: *1730 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:44 [error] 46761#0: *1731 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:44 [error] 46761#0: *1732 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:44 [error] 46761#0: *1733 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:45 [error] 46761#0: *1734 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:45 [error] 46761#0: *1735 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:46 [error] 46761#0: *1736 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:47 [error] 46761#0: *1737 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:47 [error] 46761#0: *1738 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:48 [error] 46761#0: *1739 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:48 [error] 46761#0: *1740 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:52:49 [error] 46761#0: *1741 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:53:28 [notice] 46913#0: signal process started
+2019/06/01 18:53:28 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 18:53:29 [notice] 46947#0: signal process started
+2019/06/01 18:53:29 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 18:53:30 [notice] 46981#0: signal process started
+2019/06/01 18:53:30 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 18:53:32 [error] 46983#0: *1745 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:53:33 [error] 46983#0: *1747 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:53:33 [error] 46983#0: *1748 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:53:33 [error] 46983#0: *1749 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:53:34 [error] 46983#0: *1750 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:53:34 [error] 46983#0: *1751 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:53:34 [error] 46983#0: *1752 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:53:34 [error] 46983#0: *1753 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:53:34 [error] 46983#0: *1754 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:53:34 [error] 46983#0: *1755 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:53:35 [error] 46983#0: *1756 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:53:35 [error] 46983#0: *1757 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:53:46 [error] 46983#0: *1758 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:53:46 [error] 46983#0: *1760 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:53:46 [error] 46983#0: *1761 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:53:47 [error] 46983#0: *1762 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:53:47 [error] 46983#0: *1763 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:54:20 [notice] 47023#0: signal process started
+2019/06/01 18:54:20 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 18:54:22 [notice] 47057#0: signal process started
+2019/06/01 18:54:22 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 18:54:25 [error] 47059#0: *1766 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:54:26 [error] 47059#0: *1768 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:54:26 [error] 47059#0: *1769 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 18:54:26 [error] 47059#0: *1770 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:03:37 [notice] 47138#0: signal process started
+2019/06/01 19:03:37 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:03:39 [notice] 47172#0: signal process started
+2019/06/01 19:03:39 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:03:39 [notice] 47206#0: signal process started
+2019/06/01 19:03:39 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:03:44 [error] 47208#0: *1774 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:03:44 [error] 47208#0: *1776 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:03:45 [error] 47208#0: *1777 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:03:45 [error] 47208#0: *1778 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:03:45 [error] 47208#0: *1779 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:04:43 [notice] 47244#0: signal process started
+2019/06/01 19:04:43 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:04:44 [notice] 47278#0: signal process started
+2019/06/01 19:04:44 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:04:44 [notice] 47312#0: signal process started
+2019/06/01 19:04:44 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:04:47 [error] 47314#0: *1783 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:04:48 [error] 47314#0: *1785 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:04:48 [error] 47314#0: *1786 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:08:35 [notice] 47379#0: signal process started
+2019/06/01 19:08:35 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:08:36 [notice] 47413#0: signal process started
+2019/06/01 19:08:36 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:08:39 [error] 47415#0: *1789 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:08:40 [error] 47415#0: *1791 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:08:40 [error] 47415#0: *1792 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:08:40 [error] 47415#0: *1793 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:08:40 [error] 47415#0: *1794 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:08:40 [error] 47415#0: *1795 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:08:41 [error] 47415#0: *1796 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:08:41 [error] 47415#0: *1797 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:08:41 [error] 47415#0: *1798 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:08:41 [error] 47415#0: *1799 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:09:20 [notice] 47450#0: signal process started
+2019/06/01 19:09:20 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:09:20 [notice] 47484#0: signal process started
+2019/06/01 19:09:20 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:09:21 [notice] 47518#0: signal process started
+2019/06/01 19:09:21 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:09:23 [error] 47520#0: *1803 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:09:24 [error] 47520#0: *1805 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:09:24 [error] 47520#0: *1806 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:09:24 [error] 47520#0: *1807 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:09:24 [error] 47520#0: *1808 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:13:22 [emerg] 47574#0: unexpected "s" in /Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../nginx-testing.conf:160
+2019/06/01 19:13:23 [emerg] 47607#0: unexpected "s" in /Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../nginx-testing.conf:160
+2019/06/01 19:13:34 [emerg] 47642#0: unexpected "s" in /Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../nginx-testing.conf:160
+2019/06/01 19:13:35 [emerg] 47675#0: unexpected "s" in /Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../nginx-testing.conf:160
+2019/06/01 19:14:06 [emerg] 47709#0: unexpected "s" in /Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../nginx-testing.conf:160
+2019/06/01 19:14:06 [emerg] 47742#0: unexpected "s" in /Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../nginx-testing.conf:160
+2019/06/01 19:14:34 [emerg] 47778#0: unexpected "h" in /Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../nginx-testing.conf:160
+2019/06/01 19:14:35 [emerg] 47811#0: unexpected "h" in /Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../nginx-testing.conf:160
+2019/06/01 19:14:47 [notice] 47846#0: signal process started
+2019/06/01 19:14:47 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:14:48 [notice] 47880#0: signal process started
+2019/06/01 19:14:48 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:15:22 [error] 47882#0: *1811 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:15:24 [error] 47882#0: *1813 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:15:25 [error] 47882#0: *1814 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:15:25 [error] 47882#0: *1815 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:15:25 [error] 47882#0: *1816 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:15:26 [error] 47882#0: *1817 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:15:27 [error] 47882#0: *1818 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:15:27 [error] 47882#0: *1819 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:15:27 [error] 47882#0: *1820 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:15:28 [error] 47882#0: *1821 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:16:18 [notice] 48075#0: signal process started
+2019/06/01 19:16:18 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:16:19 [notice] 48109#0: signal process started
+2019/06/01 19:16:19 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:16:22 [error] 48111#0: *1824 variable "capture_url" cannot be assigned a value (maybe you forgot to define it first?) , client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/01 19:16:22 [error] 48111#0: *1824 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:43: failed to adjust the subrequest: -1
+stack traceback:
+coroutine 0:
+	[C]: in function 'capture'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:43: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/01 19:16:22 [error] 48111#0: *1824 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/01 19:16:23 [error] 48111#0: *1826 variable "capture_url" cannot be assigned a value (maybe you forgot to define it first?) , client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/01 19:16:23 [error] 48111#0: *1826 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:43: failed to adjust the subrequest: -1
+stack traceback:
+coroutine 0:
+	[C]: in function 'capture'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:43: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/01 19:16:23 [error] 48111#0: *1826 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/01 19:16:23 [error] 48111#0: *1827 variable "capture_url" cannot be assigned a value (maybe you forgot to define it first?) , client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/01 19:16:23 [error] 48111#0: *1827 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:43: failed to adjust the subrequest: -1
+stack traceback:
+coroutine 0:
+	[C]: in function 'capture'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:43: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/01 19:16:23 [error] 48111#0: *1827 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/01 19:16:25 [error] 48111#0: *1828 variable "capture_url" cannot be assigned a value (maybe you forgot to define it first?) , client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/01 19:16:25 [error] 48111#0: *1828 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:43: failed to adjust the subrequest: -1
+stack traceback:
+coroutine 0:
+	[C]: in function 'capture'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:43: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/01 19:16:25 [error] 48111#0: *1828 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/01 19:16:26 [error] 48111#0: *1829 variable "capture_url" cannot be assigned a value (maybe you forgot to define it first?) , client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/01 19:16:26 [error] 48111#0: *1829 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:43: failed to adjust the subrequest: -1
+stack traceback:
+coroutine 0:
+	[C]: in function 'capture'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:43: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/01 19:16:26 [error] 48111#0: *1829 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/01 19:16:39 [notice] 48145#0: signal process started
+2019/06/01 19:16:39 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:16:40 [notice] 48179#0: signal process started
+2019/06/01 19:16:40 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:16:42 [error] 48181#0: *1832 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:16:43 [error] 48181#0: *1834 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:16:43 [error] 48181#0: *1835 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:17:20 [notice] 48218#0: signal process started
+2019/06/01 19:17:20 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:17:20 [notice] 48252#0: signal process started
+2019/06/01 19:17:20 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:17:21 [notice] 48286#0: signal process started
+2019/06/01 19:17:21 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:17:21 [notice] 48320#0: signal process started
+2019/06/01 19:17:21 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:17:22 [notice] 48354#0: signal process started
+2019/06/01 19:17:22 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:17:25 [error] 48356#0: *1841 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:17:25 [error] 48356#0: *1843 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:17:25 [error] 48356#0: *1844 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:17:26 [error] 48356#0: *1845 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:17:26 [error] 48356#0: *1846 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:17:57 [notice] 48391#0: signal process started
+2019/06/01 19:17:57 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:17:58 [notice] 48425#0: signal process started
+2019/06/01 19:17:58 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:17:59 [notice] 48459#0: signal process started
+2019/06/01 19:17:59 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:18:02 [error] 48461#0: *1850 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:18:02 [error] 48461#0: *1852 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:18:02 [error] 48461#0: *1853 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:18:13 [notice] 48498#0: signal process started
+2019/06/01 19:18:13 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:18:13 [notice] 48532#0: signal process started
+2019/06/01 19:18:13 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:18:14 [notice] 48566#0: signal process started
+2019/06/01 19:18:14 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/01 19:18:17 [error] 48568#0: *1857 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:18:18 [error] 48568#0: *1859 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:18:18 [error] 48568#0: *1860 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/01 19:19:02 [notice] 48606#0: signal process started
+2019/06/01 19:19:02 [alert] 28223#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 14:53:36 [notice] 9543#0: signal process started
+2019/06/03 14:53:36 [error] 9543#0: open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../logs/nginx.pid" failed (2: No such file or directory)
+2019/06/03 14:53:40 [alert] 9576#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 14:53:50 [notice] 9611#0: signal process started
+2019/06/03 14:53:50 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 14:53:52 [notice] 9645#0: signal process started
+2019/06/03 14:53:52 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 14:54:22 [error] 9647#0: *4 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:54:24 [error] 9647#0: *6 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:54:24 [error] 9647#0: *7 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:54:24 [error] 9647#0: *8 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:54:25 [error] 9647#0: *9 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:54:25 [error] 9647#0: *10 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:54:25 [error] 9647#0: *11 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:54:26 [error] 9647#0: *12 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:54:56 [notice] 9683#0: signal process started
+2019/06/03 14:54:56 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 14:54:57 [notice] 9717#0: signal process started
+2019/06/03 14:54:57 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 14:55:02 [error] 9719#0: *15 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:55:03 [error] 9719#0: *17 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:55:03 [error] 9719#0: *18 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:55:03 [error] 9719#0: *19 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:55:03 [error] 9719#0: *20 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:55:03 [error] 9719#0: *21 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:55:04 [error] 9719#0: *22 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:55:04 [error] 9719#0: *23 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:55:30 [notice] 9754#0: signal process started
+2019/06/03 14:55:30 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 14:55:31 [notice] 9788#0: signal process started
+2019/06/03 14:55:31 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 14:57:08 [notice] 9830#0: signal process started
+2019/06/03 14:57:08 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 14:57:08 [notice] 9864#0: signal process started
+2019/06/03 14:57:08 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 14:57:15 [error] 9866#0: *31 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:15 [error] 9866#0: *33 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:15 [error] 9866#0: *34 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:15 [error] 9866#0: *35 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:16 [error] 9866#0: *36 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:16 [error] 9866#0: *37 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:16 [error] 9866#0: *38 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:17 [error] 9866#0: *39 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:17 [error] 9866#0: *40 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:17 [error] 9866#0: *41 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:17 [error] 9866#0: *42 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:36 [notice] 9904#0: signal process started
+2019/06/03 14:57:36 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 14:57:37 [notice] 9938#0: signal process started
+2019/06/03 14:57:37 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 14:57:42 [error] 9940#0: *45 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:43 [error] 9940#0: *47 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:43 [error] 9940#0: *48 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:43 [error] 9940#0: *49 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:44 [error] 9940#0: *50 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:44 [error] 9940#0: *51 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:44 [error] 9940#0: *52 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:45 [error] 9940#0: *53 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:45 [error] 9940#0: *54 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:45 [error] 9940#0: *55 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:46 [error] 9940#0: *56 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:46 [error] 9940#0: *57 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:46 [error] 9940#0: *58 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 14:57:46 [error] 9940#0: *59 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:02:04 [notice] 9997#0: signal process started
+2019/06/03 15:02:04 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:02:05 [notice] 10031#0: signal process started
+2019/06/03 15:02:05 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:02:05 [notice] 10065#0: signal process started
+2019/06/03 15:02:05 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:02:06 [notice] 10099#0: signal process started
+2019/06/03 15:02:06 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:02:06 [notice] 10133#0: signal process started
+2019/06/03 15:02:06 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:02:16 [error] 10135#0: *65 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:02:17 [error] 10135#0: *67 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:02:17 [error] 10135#0: *68 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:02:17 [error] 10135#0: *69 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:02:17 [error] 10135#0: *70 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:02:17 [error] 10135#0: *71 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:02:17 [error] 10135#0: *72 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:02:18 [error] 10135#0: *73 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:02:18 [error] 10135#0: *74 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:02:18 [error] 10135#0: *75 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:02:18 [error] 10135#0: *76 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:02:18 [error] 10135#0: *77 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:02:19 [error] 10135#0: *78 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:02:19 [error] 10135#0: *79 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:02:19 [error] 10135#0: *80 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:02:19 [error] 10135#0: *81 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:02:19 [error] 10135#0: *82 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:02:20 [error] 10135#0: *83 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:02:23 [error] 10135#0: *84 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:02:23 [error] 10135#0: *85 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:02:23 [error] 10135#0: *86 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:09:12 [notice] 10200#0: signal process started
+2019/06/03 15:09:12 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:09:14 [notice] 10234#0: signal process started
+2019/06/03 15:09:14 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:09:15 [notice] 10268#0: signal process started
+2019/06/03 15:09:15 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:09:15 [notice] 10302#0: signal process started
+2019/06/03 15:09:15 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:09:16 [notice] 10336#0: signal process started
+2019/06/03 15:09:16 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:09:21 [error] 10338#0: *92 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:09:22 [error] 10338#0: *94 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:09:22 [error] 10338#0: *95 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:09:22 [error] 10338#0: *96 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:09:22 [error] 10338#0: *97 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:09:23 [error] 10338#0: *98 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:09:23 [error] 10338#0: *99 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:09:23 [error] 10338#0: *100 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:09:24 [error] 10338#0: *101 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:12:53 [notice] 10385#0: signal process started
+2019/06/03 15:12:53 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:12:54 [notice] 10419#0: signal process started
+2019/06/03 15:12:54 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:12:55 [notice] 10453#0: signal process started
+2019/06/03 15:12:55 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:12:56 [notice] 10487#0: signal process started
+2019/06/03 15:12:56 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:13:01 [error] 10489#0: *106 variable "url" cannot be assigned a value (maybe you forgot to define it first?) , client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:13:01 [error] 10489#0: *106 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:43: failed to adjust the subrequest: -1
+stack traceback:
+coroutine 0:
+	[C]: in function 'capture'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:43: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:13:01 [error] 10489#0: *106 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:13:02 [error] 10489#0: *108 variable "url" cannot be assigned a value (maybe you forgot to define it first?) , client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:13:02 [error] 10489#0: *108 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:43: failed to adjust the subrequest: -1
+stack traceback:
+coroutine 0:
+	[C]: in function 'capture'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:43: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:13:02 [error] 10489#0: *108 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:13:03 [error] 10489#0: *109 variable "url" cannot be assigned a value (maybe you forgot to define it first?) , client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:13:03 [error] 10489#0: *109 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:43: failed to adjust the subrequest: -1
+stack traceback:
+coroutine 0:
+	[C]: in function 'capture'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:43: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:13:03 [error] 10489#0: *109 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:13:03 [error] 10489#0: *110 variable "url" cannot be assigned a value (maybe you forgot to define it first?) , client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:13:03 [error] 10489#0: *110 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:43: failed to adjust the subrequest: -1
+stack traceback:
+coroutine 0:
+	[C]: in function 'capture'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:43: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:13:03 [error] 10489#0: *110 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:13:03 [error] 10489#0: *111 variable "url" cannot be assigned a value (maybe you forgot to define it first?) , client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:13:03 [error] 10489#0: *111 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:43: failed to adjust the subrequest: -1
+stack traceback:
+coroutine 0:
+	[C]: in function 'capture'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:43: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:13:03 [error] 10489#0: *111 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:13:03 [error] 10489#0: *112 variable "url" cannot be assigned a value (maybe you forgot to define it first?) , client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:13:03 [error] 10489#0: *112 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:43: failed to adjust the subrequest: -1
+stack traceback:
+coroutine 0:
+	[C]: in function 'capture'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:43: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:13:03 [error] 10489#0: *112 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:13:04 [error] 10489#0: *113 variable "url" cannot be assigned a value (maybe you forgot to define it first?) , client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:13:04 [error] 10489#0: *113 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:43: failed to adjust the subrequest: -1
+stack traceback:
+coroutine 0:
+	[C]: in function 'capture'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:43: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1>, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:13:04 [error] 10489#0: *113 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:14:09 [notice] 10525#0: signal process started
+2019/06/03 15:14:09 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:14:10 [notice] 10559#0: signal process started
+2019/06/03 15:14:10 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:14:10 [notice] 10593#0: signal process started
+2019/06/03 15:14:10 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:14:14 [error] 10595#0: *117 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:14:15 [error] 10595#0: *119 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:14:15 [error] 10595#0: *120 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:14:15 [error] 10595#0: *121 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:14:16 [error] 10595#0: *122 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:14:16 [error] 10595#0: *123 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:14:20 [error] 10595#0: *124 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:14:20 [error] 10595#0: *125 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:14:21 [error] 10595#0: *126 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:14:21 [error] 10595#0: *127 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:14:21 [error] 10595#0: *128 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:14:22 [error] 10595#0: *129 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:14:22 [error] 10595#0: *130 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:14:22 [error] 10595#0: *131 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:14:22 [error] 10595#0: *132 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:14:22 [error] 10595#0: *133 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:14:23 [error] 10595#0: *134 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:14:23 [error] 10595#0: *135 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:14:24 [error] 10595#0: *136 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:14:24 [error] 10595#0: *137 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:14:24 [error] 10595#0: *138 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:14:24 [error] 10595#0: *139 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:14:25 [error] 10595#0: *140 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:14:25 [error] 10595#0: *141 invalid URL prefix in "", client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:15:18 [notice] 10634#0: signal process started
+2019/06/03 15:15:18 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:15:19 [notice] 10668#0: signal process started
+2019/06/03 15:15:19 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:15:19 [notice] 10702#0: signal process started
+2019/06/03 15:15:19 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:15:23 [error] 10704#0: *145 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:15:24 [error] 10704#0: *147 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:15:24 [error] 10704#0: *148 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:15:24 [error] 10704#0: *149 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:15:24 [error] 10704#0: *150 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:15:25 [error] 10704#0: *151 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:15:25 [error] 10704#0: *152 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:15:25 [error] 10704#0: *153 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:15:25 [error] 10704#0: *154 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:15:25 [error] 10704#0: *155 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:22:09 [notice] 10778#0: signal process started
+2019/06/03 15:22:09 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:22:11 [notice] 10837#0: signal process started
+2019/06/03 15:22:11 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:22:11 [notice] 10871#0: signal process started
+2019/06/03 15:22:11 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:22:12 [notice] 10905#0: signal process started
+2019/06/03 15:22:12 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:22:24 [error] 10907#0: *160 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:22:24 [error] 10907#0: *162 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:22:25 [error] 10907#0: *163 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:22:25 [error] 10907#0: *164 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", subrequest: "/limit_internet_proxy", host: "localhost"
+2019/06/03 15:37:21 [emerg] 11023#0: unknown directive "//" in /Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../nginx-testing.conf:154
+2019/06/03 15:37:22 [emerg] 11056#0: unknown directive "//" in /Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../nginx-testing.conf:154
+2019/06/03 15:37:33 [emerg] 11090#0: unknown directive "//" in /Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../nginx-testing.conf:154
+2019/06/03 15:37:34 [emerg] 11123#0: unknown directive "//" in /Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../nginx-testing.conf:154
+2019/06/03 15:38:21 [notice] 11162#0: signal process started
+2019/06/03 15:38:21 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:38:22 [notice] 11196#0: signal process started
+2019/06/03 15:38:22 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:38:23 [notice] 11230#0: signal process started
+2019/06/03 15:38:23 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:41:50 [emerg] 11288#0: invalid number of arguments in "set" directive in /Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../nginx-testing.conf:150
+2019/06/03 15:41:59 [notice] 11323#0: signal process started
+2019/06/03 15:41:59 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:42:00 [notice] 11357#0: signal process started
+2019/06/03 15:42:00 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:42:47 [notice] 11394#0: signal process started
+2019/06/03 15:42:47 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:42:49 [notice] 11430#0: signal process started
+2019/06/03 15:42:49 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:44:16 [notice] 11469#0: signal process started
+2019/06/03 15:44:16 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:44:17 [notice] 11503#0: signal process started
+2019/06/03 15:44:17 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:44:17 [notice] 11537#0: signal process started
+2019/06/03 15:44:17 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:46:35 [notice] 11580#0: signal process started
+2019/06/03 15:46:35 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:46:36 [notice] 11614#0: signal process started
+2019/06/03 15:46:36 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:47:01 [notice] 11650#0: signal process started
+2019/06/03 15:47:01 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:47:01 [notice] 11684#0: signal process started
+2019/06/03 15:47:01 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:47:02 [notice] 11718#0: signal process started
+2019/06/03 15:47:02 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:47:54 [notice] 11757#0: signal process started
+2019/06/03 15:47:54 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:47:55 [notice] 11791#0: signal process started
+2019/06/03 15:47:55 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:49:33 [notice] 11833#0: signal process started
+2019/06/03 15:49:33 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:49:34 [notice] 11867#0: signal process started
+2019/06/03 15:49:34 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:49:34 [notice] 11901#0: signal process started
+2019/06/03 15:49:34 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:52:44 [notice] 11950#0: signal process started
+2019/06/03 15:52:44 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:52:46 [notice] 11984#0: signal process started
+2019/06/03 15:52:46 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:52:46 [notice] 12018#0: signal process started
+2019/06/03 15:52:46 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:52:51 [error] 12020#0: *328 failed to run set_by_lua*: set_by_lua:3: API disabled in the context of set_by_lua*
+stack traceback:
+	[C]: in function 'read_body'
+	set_by_lua:3: in function <set_by_lua:1>, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:52:51 [error] 12020#0: *328 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:52:52 [error] 12020#0: *329 failed to run set_by_lua*: set_by_lua:3: API disabled in the context of set_by_lua*
+stack traceback:
+	[C]: in function 'read_body'
+	set_by_lua:3: in function <set_by_lua:1>, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:52:52 [error] 12020#0: *329 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:52:52 [error] 12020#0: *330 failed to run set_by_lua*: set_by_lua:3: API disabled in the context of set_by_lua*
+stack traceback:
+	[C]: in function 'read_body'
+	set_by_lua:3: in function <set_by_lua:1>, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:52:52 [error] 12020#0: *330 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:52:52 [error] 12020#0: *331 failed to run set_by_lua*: set_by_lua:3: API disabled in the context of set_by_lua*
+stack traceback:
+	[C]: in function 'read_body'
+	set_by_lua:3: in function <set_by_lua:1>, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:52:52 [error] 12020#0: *331 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:54:13 [notice] 12062#0: signal process started
+2019/06/03 15:54:13 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:54:14 [notice] 12096#0: signal process started
+2019/06/03 15:54:14 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:54:14 [notice] 12130#0: signal process started
+2019/06/03 15:54:14 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:54:21 [error] 12132#0: *335 failed to run set_by_lua*: set_by_lua:3: API disabled in the context of set_by_lua*
+stack traceback:
+	[C]: in function 'read_body'
+	set_by_lua:3: in function <set_by_lua:1>, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:54:21 [error] 12132#0: *335 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:54:22 [error] 12132#0: *336 failed to run set_by_lua*: set_by_lua:3: API disabled in the context of set_by_lua*
+stack traceback:
+	[C]: in function 'read_body'
+	set_by_lua:3: in function <set_by_lua:1>, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:54:22 [error] 12132#0: *336 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:54:22 [error] 12132#0: *337 failed to run set_by_lua*: set_by_lua:3: API disabled in the context of set_by_lua*
+stack traceback:
+	[C]: in function 'read_body'
+	set_by_lua:3: in function <set_by_lua:1>, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:54:22 [error] 12132#0: *337 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:54:55 [notice] 12171#0: signal process started
+2019/06/03 15:54:55 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:54:55 [notice] 12205#0: signal process started
+2019/06/03 15:54:55 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:54:59 [error] 12207#0: *340 failed to run set_by_lua*: set_by_lua:4: no request body found; maybe you should turn on lua_need_request_body?
+stack traceback:
+	[C]: in function 'get_post_args'
+	set_by_lua:4: in function <set_by_lua:1>, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:54:59 [error] 12207#0: *340 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:55:00 [error] 12207#0: *341 failed to run set_by_lua*: set_by_lua:4: no request body found; maybe you should turn on lua_need_request_body?
+stack traceback:
+	[C]: in function 'get_post_args'
+	set_by_lua:4: in function <set_by_lua:1>, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:55:00 [error] 12207#0: *341 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:55:00 [error] 12207#0: *342 failed to run set_by_lua*: set_by_lua:4: no request body found; maybe you should turn on lua_need_request_body?
+stack traceback:
+	[C]: in function 'get_post_args'
+	set_by_lua:4: in function <set_by_lua:1>, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:55:00 [error] 12207#0: *342 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 15:58:39 [notice] 12260#0: signal process started
+2019/06/03 15:58:39 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:58:41 [notice] 12294#0: signal process started
+2019/06/03 15:58:41 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 15:58:41 [notice] 12328#0: signal process started
+2019/06/03 15:58:41 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 16:01:38 [notice] 12370#0: signal process started
+2019/06/03 16:01:38 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 16:01:39 [notice] 12404#0: signal process started
+2019/06/03 16:01:39 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 16:01:40 [notice] 12438#0: signal process started
+2019/06/03 16:01:40 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 16:01:43 [error] 12440#0: *369 failed to run header_filter_by_lua*: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: API disabled in the context of header_filter_by_lua*
+stack traceback:
+	[C]: in function 'read_body'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:9: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1> while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", upstream: "http://127.0.0.1:8087/v1/distribution/flow/limitless", host: "localhost"
+2019/06/03 16:01:44 [error] 12440#0: *371 failed to run header_filter_by_lua*: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: API disabled in the context of header_filter_by_lua*
+stack traceback:
+	[C]: in function 'read_body'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:9: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1> while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", upstream: "http://127.0.0.1:8087/v1/distribution/flow/limitless", host: "localhost"
+2019/06/03 16:01:44 [error] 12440#0: *373 failed to run header_filter_by_lua*: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: API disabled in the context of header_filter_by_lua*
+stack traceback:
+	[C]: in function 'read_body'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:9: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1> while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", upstream: "http://127.0.0.1:8087/v1/distribution/flow/limitless", host: "localhost"
+2019/06/03 16:01:45 [error] 12440#0: *375 failed to run header_filter_by_lua*: ...finch/src/bin/../../src/location/mysql_read_location.lua:9: API disabled in the context of header_filter_by_lua*
+stack traceback:
+	[C]: in function 'read_body'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:9: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1> while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", upstream: "http://127.0.0.1:8087/v1/distribution/flow/limitless", host: "localhost"
+2019/06/03 16:09:19 [notice] 12509#0: signal process started
+2019/06/03 16:09:19 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 16:09:22 [notice] 12543#0: signal process started
+2019/06/03 16:09:22 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 16:09:22 [notice] 12577#0: signal process started
+2019/06/03 16:09:22 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 16:14:48 [notice] 12641#0: signal process started
+2019/06/03 16:14:48 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 16:14:50 [notice] 12675#0: signal process started
+2019/06/03 16:14:50 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 16:14:50 [notice] 12709#0: signal process started
+2019/06/03 16:14:50 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 16:17:01 [notice] 12749#0: signal process started
+2019/06/03 16:17:01 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 16:17:02 [notice] 12783#0: signal process started
+2019/06/03 16:17:02 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 16:17:03 [notice] 12817#0: signal process started
+2019/06/03 16:17:03 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 16:17:03 [notice] 12852#0: signal process started
+2019/06/03 16:17:03 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 16:18:33 [notice] 12892#0: signal process started
+2019/06/03 16:18:33 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 16:18:34 [notice] 12926#0: signal process started
+2019/06/03 16:18:34 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
+2019/06/03 16:18:51 [error] 12928#0: *467 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:45: bad argument #1 to 'print' (string, number, boolean, nil, ngx.null, or array table expected, but got function)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:45: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1> while sending to client, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 16:18:51 [error] 12928#0: *467 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 16:18:52 [error] 12928#0: *470 lua entry thread aborted: runtime error: ...finch/src/bin/../../src/location/mysql_read_location.lua:45: bad argument #1 to 'print' (string, number, boolean, nil, ngx.null, or array table expected, but got function)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	...finch/src/bin/../../src/location/mysql_read_location.lua:45: in function <...finch/src/bin/../../src/location/mysql_read_location.lua:1> while sending to client, client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 16:18:52 [error] 12928#0: *470 open() "/Users/xiaoyueya/projects/luapro/rosefinch/src/bin/../../html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /v1/distribution/flow/limitless HTTP/1.1", host: "localhost"
+2019/06/03 16:18:59 [notice] 12964#0: signal process started
+2019/06/03 16:18:59 [alert] 9577#0: [lua] loading_config.lua:68:         The profile is testing .
